@@ -1,0 +1,18 @@
+{
+  "name": "tomi",
+  "dependencies": {
+    "bluebird": "registry:npm/bluebird#3.5.0+20170314181206",
+    "dotenv": "registry:dt/dotenv#2.0.0+20170113195346",
+    "express": "registry:dt/express#4.0.0+20170118060322",
+    "hapi": "registry:dt/hapi#16.0.0+20170125175540",
+    "joi": "registry:dt/joi#10.0.0+20161220115018",
+    "jsonwebtoken": "registry:npm/jsonwebtoken#7.1.8+20160811031426",
+    "lodash": "registry:npm/lodash#4.0.0+20161015015725",
+    "mongoose": "registry:npm/mongoose#4.3.5+20160628072220",
+    "passport": "registry:npm/passport#0.3.0+20161028163825"
+  },
+  "globalDependencies": {
+    "elasticsearch": "registry:dt/elasticsearch#5.0.0+20170117233756",
+    "node": "registry:dt/node#7.0.0+20170204020307"
+  }
+}
