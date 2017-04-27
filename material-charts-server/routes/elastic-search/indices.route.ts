@@ -17,7 +17,7 @@ export const indicesRouter = (server: hapi.Server) => {
             auth: false,
             handler: (request: hapi.Request, reply: hapi.IReply) => {
 
-                const payload = request.payload.payload;
+                const payload = request.payload;
 
                 getIndices(payload)
                     .then(
@@ -26,9 +26,7 @@ export const indicesRouter = (server: hapi.Server) => {
                     )
             },
             validate: {
-                payload: {
-                    payload: indicesSchema
-                }
+                payload: indicesSchema
             }
         }
     });

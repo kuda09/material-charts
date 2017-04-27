@@ -3,6 +3,7 @@ import {connect} from 'mongoose';
 
 export const connectToDatabase = (dataseUrl: string) => {
 
+
     return new Promise((resolve , reject) => {
 
         connect(dataseUrl)

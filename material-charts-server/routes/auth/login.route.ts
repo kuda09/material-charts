@@ -12,7 +12,7 @@ export const loginRouter = (server: hapi.Server) => {
 
         if(err) throw  err;
 
-        server.auth.strategy('simple', 'basic', { validateFunc: validate})
+        server.auth.strategy('simple', 'basic', { validateFunc: validate});
         server.route({
             method: "GET",
             path: "/api/login",

@@ -30,7 +30,7 @@ export const searchRouter = (server: hapi.Server) => {
                 auth: 'jwt',
                 handler: (request: hapi.Request, reply: hapi.IReply) => {
 
-                    const payload = request.payload.payload;
+                    const payload = request.payload;
 
                     queryES(payload, (err, ESResponse) => {
 
@@ -43,9 +43,7 @@ export const searchRouter = (server: hapi.Server) => {
                     })
                 },
                 validate: {
-                    payload: {
-                        payload: searchSchema
-                    }
+                    payload: searchSchema
                 }
             }
         });

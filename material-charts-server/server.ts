@@ -81,7 +81,7 @@ class Server {
 
         this.server.start(err => {
             if (err) throw err;
-            console.log(`Server up and running at :${this.server.info.uri}`);
+            console.log(`Server up and running at : ${this.server.info.uri}`);
         })
 
     }

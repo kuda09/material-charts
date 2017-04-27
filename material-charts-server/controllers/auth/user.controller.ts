@@ -6,7 +6,6 @@
 ///<reference path="../../typings/modules/hapi/index.d.ts"/>
 
 const mongoose = require('mongoose');
-const promise = require('bluebird');
 const user = require('./../../schemas/user.schema');
 
 mongoose.Promise = Promise;
@@ -25,6 +24,8 @@ export const createUserController = (payload) => {
         user.indices = [];
         user.visualisations = [];
         user.setPassword(payload.password);
+
+        console.log(user);
 
         userSchema.create(user)
             .then(user => {

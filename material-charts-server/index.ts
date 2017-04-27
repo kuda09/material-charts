@@ -17,7 +17,6 @@ connectToDatabase(process.env.DATABASE_URL)
         new server.Server()
             .registerinErt()
             .registerCors()
-            .registerHapiJWT2()
             .enableRoutes()
             .startServer();
 

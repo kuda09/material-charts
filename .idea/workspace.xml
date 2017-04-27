@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2228d03-b94f-468e-98e5-05fcf58931a4" name="Default" comment="" />
+    <list default="true" id="c2228d03-b94f-468e-98e5-05fcf58931a4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/.env" afterPath="$PROJECT_DIR$/material-charts-server/.env" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/connections/db.connection.ts" afterPath="$PROJECT_DIR$/material-charts-server/connections/db.connection.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/controllers/auth/user.controller.ts" afterPath="$PROJECT_DIR$/material-charts-server/controllers/auth/user.controller.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/controllers/collections/dashboards.controller.ts" afterPath="$PROJECT_DIR$/material-charts-server/controllers/collections/dashboards.controller.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/controllers/elastic-search/query-es.controller.ts" afterPath="$PROJECT_DIR$/material-charts-server/controllers/elastic-search/query-es.controller.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/index.ts" afterPath="$PROJECT_DIR$/material-charts-server/index.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/package.json" afterPath="$PROJECT_DIR$/material-charts-server/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/routes/auth/login.route.ts" afterPath="$PROJECT_DIR$/material-charts-server/routes/auth/login.route.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/routes/collections/dashboards.route.ts" afterPath="$PROJECT_DIR$/material-charts-server/routes/collections/dashboards.route.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/routes/collections/indices.route.ts" afterPath="$PROJECT_DIR$/material-charts-server/routes/collections/indices.route.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/routes/elastic-search/indices.route.ts" afterPath="$PROJECT_DIR$/material-charts-server/routes/elastic-search/indices.route.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/routes/elastic-search/search.route.ts" afterPath="$PROJECT_DIR$/material-charts-server/routes/elastic-search/search.route.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/routes/index.ts" afterPath="$PROJECT_DIR$/material-charts-server/routes/index.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/schemas/user.schema.ts" afterPath="$PROJECT_DIR$/material-charts-server/schemas/user.schema.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-charts-server/server.ts" afterPath="$PROJECT_DIR$/material-charts-server/server.ts" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,81 +36,91 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angular-cli.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material-charts-client/angular-cli.json">
+      <file leaf-file-name="dashboards.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/material-charts-server/controllers/collections/dashboards.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
-                <element signature="e#0#59#0" expanded="true" />
+                <element signature="e#65#112#0" expanded="true" />
+                <element signature="e#664#1043#0" expanded="false" />
+                <element signature="e#1123#1735#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/app.module.ts">
+      <file leaf-file-name="dashboards.route.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/material-charts-server/routes/collections/dashboards.route.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
-              <caret line="155" column="28" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="28" />
+            <state relative-caret-position="269">
+              <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
               <folding>
-                <element signature="e#0#56#0" expanded="true" />
+                <element signature="e#65#94#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material-charts-server/Dockerfile">
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/material-charts-server/routes/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="269">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#62#91#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material-charts-client/package.json">
+      <file leaf-file-name="indices.route.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/material-charts-server/routes/collections/indices.route.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsconfig.app.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material-charts-client/tsconfig.app.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-331">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/material-charts-server/tsconfig.json">
+      <file leaf-file-name="MaterialCharts/material-charts-db/users" pinned="false" current-in-tab="true">
+        <entry file="mongo://MaterialCharts/material-charts-db/users">
+          <provider selected="true" editor-type-id="MongoData">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/material-charts-server/controllers/auth/user.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="80">
+              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visualisations.route.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/material-charts-server/routes/collections/visualisations.route.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-480">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -98,29 +129,77 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/material-charts-client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/material-charts-client/Dockerfile" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/package.json" />
-        <option value="$PROJECT_DIR$/material-charts-client/angular-cli.json" />
         <option value="$PROJECT_DIR$/material-charts-server/Dockerfile" />
         <option value="$PROJECT_DIR$/material-charts-server/tsconfig.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/material-charts-server/routes/collections/indices.route.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/controllers/elastic-search/query-es.controller.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/effects/user-effects.service.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/effects/user-effects.service.spec.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/state/application.state.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/state/dashboards.state.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/state/indices.state.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/state/search.state.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/state/user.state.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/state/visTypes.state.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/models/indice.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/chartTypeOptions.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/services/local-storage.service.spec.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/effects/indices-effects.service.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/angular-cli.json" />
+        <option value="$PROJECT_DIR$/material-charts-client/package.json" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/state/interfaces/vis.interface.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/state/vis.state.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/visualisation/visualize/visualize.component.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/services/local-storage.service.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/reducers/user.reducer.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/reducers/dashboards.reducer.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/reducers/indices.reducer.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/reducers/visTypes.reducer.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/reducers/vis.reducer.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/services/auth.service.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/actions/vis.action.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/visualisation/visualisation.component.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/visualisation/visualisations-sidebar/visualisations-sidebar.component.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/effects/visualisations-effects.service.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/material-charts-client/src/styles.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/material-charts-server/package.json" />
+        <option value="$PROJECT_DIR$/material-charts-server/connections/db.connection.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/routes/index.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/routes/auth/login.route.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/routes/elastic-search/indices.route.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/index.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/routes/elastic-search/search.route.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/server.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/.env" />
+        <option value="$PROJECT_DIR$/material-charts-server/controllers/auth/user.controller.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/schemas/user.schema.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/controllers/collections/dashboards.controller.ts" />
+        <option value="$PROJECT_DIR$/material-charts-server/routes/collections/dashboards.route.ts" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/material-charts-client/package.json" />
+    <package-json value="$PROJECT_DIR$/material-charts-server/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/material-charts-client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/material-charts-server/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -145,7 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,16 +251,192 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts-client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts-client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts-client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts-client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts-client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts-client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts-client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hapi-status" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-charts-client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hapi-status" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="reference.settings.ide.settings.file-colors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.4" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -192,7 +447,8 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="typescript-compiler-editor-notification" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/tsconfig.json&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/Dockerfile&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/webpack.config.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/tsconfig.json&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/Dockerfile&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/hapi-status/.jshintrc&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/webpack.config.js" />
+    <property name="SearchEverywhereHistoryKey" value="search&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-server/routes/elastic-search/search.route.ts&#10;app.&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.module.ts&#10;app.mo&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.module.ts&#10;ac&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/package.json&#10;style&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/styles.scss&#10;effects&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/effects/visualisations-effects.service.ts&#10;sidebar&#9;null&#9;null&#10;visualisation&#9;null&#9;null&#10;vis.a&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/actions/vis.action.ts&#10;app.m&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.module.ts&#10;auth.ser&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/services/auth.service.ts&#10;user.re&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/reducers/user.reducer.ts&#10;user&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/state/user.state.ts&#10;visualiz&#9;null&#9;null&#10;visuali&#9;null&#9;null&#10;vis-editor-sidebar.component&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.ts&#10;vis&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/state/vis.state.ts&#10;packa&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/package.json&#10;angul&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/angular-cli.json&#10;pack&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/package.json" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -200,6 +456,46 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/material-charts-client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="start (1)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/material-charts-server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lint" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/material-charts-server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="debug" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/material-charts-server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="debug" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -273,9 +569,26 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="npm.start" />
+      <item index="1" class="java.lang.String" itemvalue="npm.start (1)" />
+      <item index="2" class="java.lang.String" itemvalue="npm.lint" />
+      <item index="3" class="java.lang.String" itemvalue="npm.debug" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="npm.start (1)" />
+        <item index="1" class="java.lang.String" itemvalue="npm.debug" />
+        <item index="2" class="java.lang.String" itemvalue="npm.lint" />
+        <item index="3" class="java.lang.String" itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -286,7 +599,8 @@
       <updated>1492508760973</updated>
       <workItem from="1492508763932" duration="4583000" />
       <workItem from="1492513633938" duration="2211000" />
-      <workItem from="1492770298050" duration="1639000" />
+      <workItem from="1492770298050" duration="6683000" />
+      <workItem from="1493199641865" duration="21404000" />
     </task>
     <task id="LOCAL-00001" summary="separate the server and the frontend">
       <created>1492771398061</created>
@@ -299,32 +613,33 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8433000" />
+    <option name="totallyTimeSpent" value="34881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1007" extended-state="6" />
-    <editor active="false" />
+    <frame x="1280" y="23" width="1920" height="1007" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5149095" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21831736" sideWeight="0.5162524" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32845894" sideWeight="0.48509052" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21405493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41169855" sideWeight="0.4802982" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23908414" sideWeight="0.4837476" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295838" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,104 +649,219 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="separate the server and the frontend" />
     <option name="LAST_COMMIT_MESSAGE" value="separate the server and the frontend" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/material-charts-client/angular-cli.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/state/interfaces/vis.interface.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="460">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#103#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/state/vis.state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#73#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/visualisation/visualize/visualize.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#81#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/state/user.state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/services/local-storage.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/reducers/application.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/reducers/dashboards.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/reducers/indices.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/reducers/search.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#62#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/reducers/user.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#60#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/reducers/visTypes.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/reducers/vis.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/actions/vis.action.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/visualisation/visualisation.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/visualisation/visualisations-sidebar/visualisations-sidebar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="155" column="28" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="28" />
+        <state relative-caret-position="289">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="31" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#77#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/effects/visualisations-effects.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/material-charts-client/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="860">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/tsconfig.app.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-server/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/angular2-jwt/angular2-jwt.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/services/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="155" column="28" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="28" />
+        <state relative-caret-position="760">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/demo/bootstrap.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/demo/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -439,177 +869,184 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="140">
-            <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <first_editor relative-caret-position="160">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/.dockerignore">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-server/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/material-charts-client/typings.json" />
-    <entry file="file://$PROJECT_DIR$/material-charts-client/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8360">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="332">
+          <caret line="147" column="31" lean-forward="true" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#56#0" expanded="false" />
+            <element signature="e#6764#6914#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/material-charts-server/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/karma.conf.js">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/routes/elastic-search/indices.route.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#129#158#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@angular/common/package.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/routes/home.route.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1328">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/routes/elastic-search/search.route.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/book.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="155" column="28" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#65#94#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/server.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="109">
+          <caret line="74" column="16" lean-forward="true" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/config/webpack.package.js">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/config/webpack.dev.js">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/routes/auth/register.route.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="349">
+          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/demo/bootstrap.ts">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/schemas/register.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/demo/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/controllers/auth/user.controller.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/demo/basic/tabs.ts" />
-    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/@swimlane/ngx-datatable/package.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/schemas/user.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-19">
+          <caret line="1" column="65" lean-forward="true" selection-start-line="1" selection-start-column="65" selection-end-line="2" selection-end-column="37" />
+          <folding>
+            <element signature="e#785#936#0" expanded="false" />
+            <element signature="e#995#1120#0" expanded="false" />
+            <element signature="e#1166#1393#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/tsconfig.app.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/routes/auth/login.route.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-server/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#193#223#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-server/connections/db.connection.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-server/controllers/auth/user.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-server/typings/modules/hapi/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="1196" column="8" lean-forward="false" selection-start-line="1196" selection-start-column="8" selection-end-line="1196" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/src/app/store/state/dashboards.state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-server/routes/collections/visualisations.route.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/hapi-status/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/hapi-status/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -617,35 +1054,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/angular-cli.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-server/routes/collections/indices.route.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        <state relative-caret-position="-331">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-server/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/hapi-status/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/hapi-status/.jshintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-client/package.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/hapi-status/.jscsrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-charts-server/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/material-charts-client/node_modules/hapi-status/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="-1819">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-server/routes/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-server/controllers/collections/dashboards.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#65#112#0" expanded="true" />
+            <element signature="e#664#1043#0" expanded="false" />
+            <element signature="e#1123#1735#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-charts-server/routes/collections/dashboards.route.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+          <folding>
+            <element signature="e#65#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

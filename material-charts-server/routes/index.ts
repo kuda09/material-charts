@@ -16,6 +16,9 @@ export class Routes {
 
     init() {
 
+
+        debugger;
+
         searchRouter(this.serverInstance);
         indicesRouter(this.serverInstance);
         loginRouter(this.serverInstance);

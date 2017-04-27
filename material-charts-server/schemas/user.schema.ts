@@ -5,11 +5,10 @@ import {sign} from "jsonwebtoken";
 const crypto = require("crypto");
 
 const userSchema = new mongoose.Schema({
-    id: {
-        type: Number,
+    username: {
+        type: String,
         unique: true
     },
-    username: String,
     lastname: String,
     name: String,
     dashboards: [],

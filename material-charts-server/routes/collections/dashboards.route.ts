@@ -1,18 +1,11 @@
 ///<reference path="../../node_modules/@types/hapi/index.d.ts"/>
 import * as hapi from "hapi";
 import {tokenValid} from "../../controllers/strategies/auth.basic";
-import {retrieveDashboardsController} from "../../controllers/collections/dashboards.controller";
+import {retrieveDashboardsController, createDashboardController, updateDashboardController, deleteDashboardController} from "../../controllers/collections/dashboards.controller";
+const Boom = require('boom');
+
 
 export const dashBoardsRouter = (server: hapi.Server) => {
-
-    server.auth.strategy('jwt', 'jwt', {
-        key: process.env.JWT_SECRET,
-        validateFunc: tokenValid,
-        verifyOptions: {algorithms: ['HS256']}
-    });
-
-    server.auth.default('jwt');
-
     server.route({
         method: "GET",
         path: "/api/collections/dashboards",
@@ -23,13 +16,61 @@ export const dashBoardsRouter = (server: hapi.Server) => {
                 const username = request.auth.credentials.username;
 
                 retrieveDashboardsController(username)
-                    .then(dashboards => reply({dashboards: dashboards}))
+                    .then(dashboards => reply({dashboards: dashboards}).code(200))
                     .catch(err => reply({err: err}));
 
             }
         }
     });
+    server.route({
+        method: "POST",
+        path: "/api/collections/dashboard",
+        config: {
+            auth: 'jwt',
+            handler: (request: hapi.Request, reply: hapi.IReply) => {
 
+                const username = request.auth.credentials.username;
+                const dashboard  = request.payload;
 
+                createDashboardController(username, dashboard)
+                    .then(dashboards => reply({dashboard: dashboard}).code(201))
+                    .catch(err => reply({err: err}));
 
+            }
+        }
+    });
+    server.route({
+        method: "PATCH",
+        path: "/api/collections/dashboard",
+        config: {
+            auth: 'jwt',
+            handler: (request: hapi.Request, reply: hapi.IReply) => {
+
+                const username = request.auth.credentials.username;
+                const dashboard  = request.payload;
+
+                updateDashboardController(username, dashboard)
+                    .then(dashboards => reply({dashboard: dashboard}).code(204))
+                    .catch(err => reply({err: err}));
+
+            }
+        }
+    });
+    server.route({
+        method: "DELETE",
+        path: "/api/collections/dashboard",
+        config: {
+            auth: 'jwt',
+            handler: (request: hapi.Request, reply: hapi.IReply) => {
+
+                const username = request.auth.credentials.username;
+                const dashboard  = request.payload;
+
+                deleteDashboardController(username, dashboard)
+                    .then(dashboards => reply({dashboard}).code(204))
+                    .catch(err => reply({err: err}));
+
+            }
+        }
+    });
 }
