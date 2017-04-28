@@ -10,7 +10,7 @@ export const search = (server: hapi.Server) => {
 
     server.route({
         method: "POST",
-        path: "/api/indicesRouter",
+        path: "/api/ESIndicesRouter",
         config: {
             handler: (request: hapi.Request, reply: hapi.IReply) => {
 

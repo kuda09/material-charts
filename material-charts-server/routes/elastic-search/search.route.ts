@@ -4,7 +4,7 @@ import {searchSchema} from "../../schemas/search.schema";
 import {queryES} from "../../controllers/elastic-search/query-es.controller";
 import {tokenValid} from "../../controllers/strategies/auth.basic";
 
-export const searchRouter = (server: hapi.Server) => {
+export const ESSearchRouter = (server: hapi.Server) => {
 
     server.register(require('hapi-auth-jwt2'), (err) => {
 

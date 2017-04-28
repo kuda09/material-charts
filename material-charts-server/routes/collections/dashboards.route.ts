@@ -5,7 +5,7 @@ import {retrieveDashboardsController, createDashboardController, updateDashboard
 const Boom = require('boom');
 
 
-export const dashBoardsRouter = (server: hapi.Server) => {
+export const dashboardsRouter = (server: hapi.Server) => {
     server.route({
         method: "GET",
         path: "/api/collections/dashboards",
@@ -57,8 +57,8 @@ export const dashBoardsRouter = (server: hapi.Server) => {
         }
     });
     server.route({
-        method: "DELETE",
-        path: "/api/collections/dashboard",
+        method: "POST",
+        path: "/api/collections/dashboard/delete",
         config: {
             auth: 'jwt',
             handler: (request: hapi.Request, reply: hapi.IReply) => {
@@ -67,7 +67,7 @@ export const dashBoardsRouter = (server: hapi.Server) => {
                 const dashboard  = request.payload;
 
                 deleteDashboardController(username, dashboard)
-                    .then(dashboards => reply({dashboard}).code(204))
+                    .then(dashboards => reply({dashboard}).code(202))
                     .catch(err => reply({err: err}));
 
             }

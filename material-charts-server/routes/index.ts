@@ -1,11 +1,15 @@
 ///<reference path="../node_modules/@types/hapi/index.d.ts"/>
 import * as hapi from "hapi";
-import {searchRouter} from "./elastic-search/search.route";
-import {indicesRouter} from "./elastic-search/indices.route";
+import {ESSearchRouter} from "./elastic-search/search.route";
+import {ESIndicesRouter} from "./elastic-search/indices.route";
+
 import {loginRouter} from "./auth/login.route";
 import {homeRouter} from "./home.route";
 import {registerRouter} from "./auth/register.route";
-import {dashBoardsRouter} from "./collections/dashboards.route";
+
+import {dashboardsRouter} from "./collections/dashboards.route";
+import {visualisationsRouter} from "./collections/visualisations.route";
+import {indicesRouter} from "./collections/indices.route";
 
 
 export class Routes {
@@ -16,15 +20,16 @@ export class Routes {
 
     init() {
 
+        ESSearchRouter(this.serverInstance);
+        ESIndicesRouter(this.serverInstance);
 
-        debugger;
-
-        searchRouter(this.serverInstance);
-        indicesRouter(this.serverInstance);
         loginRouter(this.serverInstance);
         registerRouter(this.serverInstance)
         homeRouter(this.serverInstance);
-        dashBoardsRouter(this.serverInstance);
+
+        dashboardsRouter(this.serverInstance);
+        visualisationsRouter(this.serverInstance);
+        indicesRouter(this.serverInstance);
 
     }
 }

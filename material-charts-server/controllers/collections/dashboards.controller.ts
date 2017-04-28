@@ -64,7 +64,7 @@ export const updateDashboardController = (username, dashboard: IDashboard) => {
 
             user.dashboards = map(dashboards, (_dashboard: IDashboard) => {
 
-                if(_dashboard.name === dashboard.name){
+                if(_dashboard.id === dashboard.id){
 
                     _dashboard = dashboard;
                 }
@@ -91,7 +91,7 @@ export const deleteDashboardController = (username, dashboard: IDashboard) => {
             }
             const dashboards = user.dashboards;
 
-            user.dashboards = filter(dashboards, (_dashboard: IDashboard) => _dashboard.name !== dashboard.name);
+            user.dashboards = filter(dashboards, (_dashboard: IDashboard) => _dashboard.id !== dashboard.id);
 
             user.save(user)
                 .then(() => resolve(dashboard))

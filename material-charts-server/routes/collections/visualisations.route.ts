@@ -1,55 +1,73 @@
 ///<reference path="../../node_modules/@types/hapi/index.d.ts"/>
 import * as hapi from "hapi";
-import {searchSchema} from "../../schemas/search.schema";
-import {queryES} from "../../controllers/elastic-search/query-es.controller";
-import {tokenValid} from "../../controllers/strategies/auth.basic";
-
-const hapiJWT2 = require('hapi-auth-jwt2');
-
+import {VisualisationsController} from "../../controllers/collections/visualisations.controller";
 
 export const visualisationsRouter = (server: hapi.Server) => {
+    server.route({
+        method: "GET",
+        path: "/api/collections/visualisations",
+        config: {
+            auth: 'jwt',
+            handler: (request: hapi.Request, reply: hapi.IReply) => {
 
-    server.register(hapiJWT2, (err) => {
+                const username = request.auth.credentials.username;
 
-        if (err) {
-            throw  err;
-        }
+                VisualisationsController.retrieveVisualisations(username)
+                    .then(visualisations => reply({visualisations}).code(200))
+                    .catch(err => reply({err: err}));
 
-        server.auth.strategy('jwt', 'jwt', {
-            key: process.env.JWT_SECRET,
-            validateFunc: tokenValid,
-            verifyOptions: {algorithms: ['HS256']}
-        });
-
-        server.auth.default('jwt');
-
-        server.route({
-            method: "POST",
-            path: "/api/collections/visualisations",
-            config: {
-                auth: 'jwt',
-                handler: (request: hapi.Request, reply: hapi.IReply) => {
-
-                    const payload = request.payload.payload;
-
-                    queryES(payload, (err, ESResponse) => {
-
-                        if (err) {
-
-                            return reply(err);
-                        }
-
-                        reply(ESResponse);
-                    })
-                },
-                validate: {
-                    payload: {
-                        payload: searchSchema
-                    }
-                }
             }
-        });
-    })
+        }
+    });
+    server.route({
+        method: "POST",
+        path: "/api/collections/visualisation",
+        config: {
+            auth: 'jwt',
+            handler: (request: hapi.Request, reply: hapi.IReply) => {
 
+                const username = request.auth.credentials.username;
+                const visualisation  = request.payload;
 
+                VisualisationsController.createVisualisation(username, visualisation)
+                    .then(() => reply({visualisation}).code(201))
+                    .catch(err => reply({err: err}));
+
+            }
+        }
+    });
+    server.route({
+        method: "PATCH",
+        path: "/api/collections/visualisation",
+        config: {
+            auth: 'jwt',
+            handler: (request: hapi.Request, reply: hapi.IReply) => {
+
+                const username = request.auth.credentials.username;
+                const visualisation  = request.payload;
+
+                VisualisationsController.updateVisualisation(username, visualisation)
+                    .then(() => reply({visualisation}).code(204))
+                    .catch(err => reply({err: err}));
+
+            }
+        }
+    });
+    server.route({
+        method: "POST",
+        path: "/api/collections/visualisation/delete",
+        config: {
+            auth: 'jwt',
+            handler: (request: hapi.Request, reply: hapi.IReply) => {
+
+                const username = request.auth.credentials.username;
+                const visualisation  = request.payload;
+
+                VisualisationsController.deleteVisualisation(username, visualisation)
+                    .then(() => reply({visualisation}).code(202))
+                    .catch(err => reply({err: err}));
+
+            }
+        }
+    });
 }

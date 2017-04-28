@@ -8,7 +8,7 @@ import {indicesSchema} from "../../schemas/indices.schema";
 import {indiceFormatter} from "../../formatters/indices.formatter";
 
 
-export const indicesRouter = (server: hapi.Server) => {
+export const ESIndicesRouter = (server: hapi.Server) => {
 
     server.route({
         method: "POST",
