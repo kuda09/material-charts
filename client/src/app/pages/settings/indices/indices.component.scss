@@ -1,0 +1,43 @@
+
+.container {
+
+  font-size: 0;
+
+
+  > div {
+
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    vertical-align: top;
+  }
+  .sidebar {
+
+    background-color: #f4f4f4;
+    font-size: 14px;
+    width: 25%;
+
+    h3 {
+
+      display: inline-block;
+    }
+
+    [md-mini-fab] {
+
+      float: right;
+      cursor: pointer;
+    }
+
+  }
+
+  .main-content {
+
+    width: 75%;
+    font-size: 14px;
+  }
+
+  :focus {
+
+    outline: none;
+  }
+}

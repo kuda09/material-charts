@@ -1,0 +1,24 @@
+.vis-container {
+
+  display: flex;
+
+  > * {
+
+    height:100vh;
+    &:first-child {
+
+      width: 25%;
+    }
+
+    &:nth-child(2) {
+
+      width: 72%;
+
+    }
+
+    &:last-child {
+
+      width: 3%;
+    }
+  }
+}

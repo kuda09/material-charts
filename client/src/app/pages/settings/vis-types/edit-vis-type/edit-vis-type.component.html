@@ -1,0 +1,50 @@
+<div class="container">
+    <h2>Edit Chart  - ({{_visType.name}})</h2>
+
+
+    <form (ngSubmit)="saveVisualisation(EditVisTypeForm.value, EditVisTypeForm.valid)" name="EditVisTypeForm" [formGroup]="EditVisTypeForm" novalidate>
+        <section>
+            <md-input-container>
+                <input mdInput placeholder="Name" formControlName="name" required>
+            </md-input-container>
+        </section>
+        <section>
+            <md-input-container>
+                <textarea mdInput placeholder="Description" formControlName="description" required rows="4">
+                </textarea>
+            </md-input-container>
+        </section>
+        <section>
+            <md-input-container>
+                <input mdInput placeholder="Icon" formControlName="icon" required>
+            </md-input-container>
+        </section>
+        <section>
+            <md-input-container>
+                <input mdInput placeholder="Selector" formControlName="selector" required>
+            </md-input-container>
+        </section>
+
+        <div ace-editor
+             [(text)]="EditVisTypeForm.controls.options.value"
+             [mode]="'json'"
+             [theme]="'eclipse'"
+             [options]="options"
+             [readOnly]="false"
+             [autoUpdateContent]="true"
+             (textChanged)="onChange($event)"
+             [durationBeforeCallback]="1000"
+             style="min-height: 400px; width:100%; overflow: auto;"></div>
+
+        <section style="display: none;">
+            <md-input-container>
+                <textarea mdInput placeholder="Options" formControlName="options" required rows="10">
+                </textarea>
+            </md-input-container>
+        </section>
+        <input type="hidden" formControlName="id">
+        <section>
+            <button md-raised-button color="accent" type="submit" [disabled]="EditVisTypeForm.invalid || EditVisTypeForm.untouched">Save</button>
+        </section>
+    </form>
+</div>

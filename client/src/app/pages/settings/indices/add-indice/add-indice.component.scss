@@ -1,0 +1,25 @@
+form {
+  
+  display: block;
+  padding: 10px;
+  background-color: #efefef;
+
+  .error {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    padding: 16px 16px;
+    background-color: rgb(255,82,82);
+    color: rgb(255,255,255);
+  }
+}

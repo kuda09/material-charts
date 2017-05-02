@@ -1,0 +1,7 @@
+<div class="vis-sidebar">
+    <div class="vis-container container">
+        <div md-list-item *ngFor="let vis of visTypes" (click)="changeVis(vis)" [mdTooltip]="vis.name" mdTooltipPosition="before">
+            <i class="material-icons">{{vis.icon}}</i>
+        </div>
+    </div>
+</div>

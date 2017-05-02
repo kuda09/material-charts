@@ -1,0 +1,43 @@
+<div class="container">
+
+  <button md-mini-fab (click)="addVisTypes()" tabindex="-1">
+  <span class="mat-button-wrapper">
+    <md-icon aria-label="check">add</md-icon>
+  </span>
+    <div md-ripple>
+    </div>
+    <div class="mat-button-focus-overlay"></div>
+  </button>
+
+
+  <div class="vis-types-container">
+
+    <div class="heading-info" >
+      <h2>Install a Visualisation</h2>
+      <p>Click the add button to add a visualisation type</p>
+
+    </div>
+
+    <div class="vis-types-wrapper">
+      <div class="list-of-types-vis">
+        <md-card class="vis-card" *ngFor="let vis of visTypes">
+          <md-card-header>
+            <i class="material-icons">{{vis.icon}}</i><h4>{{vis.name}}</h4>
+          </md-card-header>
+          <md-card-content>
+            <p>
+              {{vis.description}}
+            </p>
+          </md-card-content>
+          <md-card-actions>
+            <button md-raised-button color="primary" [routerLink]="[vis.id + '/edit']">Edit</button>
+            <button md-raised-button color="warn" (click)="uninstall(vis)">Delete</button>
+          </md-card-actions>
+        </md-card>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>

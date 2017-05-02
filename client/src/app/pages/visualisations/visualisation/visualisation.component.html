@@ -1,0 +1,16 @@
+<md-progress-bar mode="indeterminate" color="primary" *ngIf="buckets.length === 0  && isSearching"></md-progress-bar>
+<div class="vis-container">
+    <app-vis-editor-sidebar
+            [vis]="vis"
+            (visualizer)="visualize($event)"
+            (statify)="statify($event)">
+    </app-vis-editor-sidebar>
+    <app-visualize
+            [vis]="vis"
+            [data]="buckets">
+    </app-visualize>
+    <app-visualisations-sidebar
+            [visTypes]="visTypes"
+            (statify)="statify($event)">
+    </app-visualisations-sidebar>
+</div>

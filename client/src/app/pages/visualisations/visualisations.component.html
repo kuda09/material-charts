@@ -1,0 +1,34 @@
+<div class="container">
+    <h3>Visualisations</h3>
+    <div class="heading-info">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequuntur deleniti distinctio ex facere ipsum, itaque, magnam maxime molestiae nihil nulla, perferendis recusandae reiciendis repellendus sint sit ullam vitae? Id?</p>
+        <a md-raised-button color="accent" [routerLink]="['/visualisations/create']">Create Visualisation</a>
+    </div>
+    <div class="vis-contents">
+
+
+        <div class="vis-wrapper">
+            <div class="filter-vis">
+                <md-input-container>
+                    <input mdInput placeholder="type a visualisation name" [(ngModel)]="term">
+                </md-input-container>
+            </div>
+            <md-card class="vis-card" *ngFor="let vis of visualisations$ | async | paginate: { itemsPerPage: 9, currentPage: p}">
+                <md-card-header>
+                    <md-card-title><h4>{{vis.name}}</h4></md-card-title>
+                </md-card-header>
+                <md-card-content>
+                    <p>
+                        {{vis.description}}
+                    </p>
+                </md-card-content>
+                <md-card-actions>
+                    <button md-raised-button color="primary" [routerLink]="['/visualisation/' + vis.id]">View</button>
+                    <button md-raised-button color="warn" (click)="deletVis(vis)">Delete</button>
+                </md-card-actions>
+            </md-card>
+        </div>
+
+        <pagination-controls (pageChange)="p = $event" *ngIf="(visualisations$ | async)?.length > 0 "></pagination-controls>
+    </div>
+</div>

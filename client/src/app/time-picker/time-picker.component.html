@@ -1,0 +1,24 @@
+<div class="time-picker">
+  <form action="" name="TimeRangeForm" [formGroup]="TimeRangeForm" (ngSubmit)="setTimer(TimeRangeForm.value, TimeRangeForm.valid)">
+
+    <section class="form-row">
+      From
+      <md-input-container>
+        <input mdInput placeholder="DD-MM-YYYY"  required formControlName="gte">
+      </md-input-container>
+    </section>
+
+    <section class="form-row">
+      To
+      <md-input-container>
+        <input mdInput placeholder="DD-MM-YYYY"  required formControlName="lte">
+      </md-input-container>
+    </section>
+    <input type="hidden" formControlName="format" required>
+
+    <section class="form-row">
+      <button md-raised-button color="accent" type="submit" [disabled]="TimeRangeForm.invalid">Go</button>
+    </section>
+  </form>
+
+</div>

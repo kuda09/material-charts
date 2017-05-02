@@ -1,0 +1,20 @@
+<div class="create-dashboard-container">
+
+    <h3>Create a dashboard</h3>
+
+    <form (ngSubmit)="createDashboard(AddDashboardForm.value, AddDashboardForm.valid)" name="AddDashboardForm" [formGroup]="AddDashboardForm">
+        <section>
+            <md-input-container>
+                <input mdInput placeholder="Name"formControlName="name" required>
+            </md-input-container>
+            <md-input-container>
+                <textarea mdInput placeholder="Description"formControlName="description" required rows="4">
+                </textarea>
+            </md-input-container>
+        </section>
+        <section>
+            <input type="hidden" formControlName="id">
+            <button md-raised-button color="accent" type="submit" [disabled]="AddDashboardForm.invalid">Create</button>
+        </section>
+    </form>
+</div>

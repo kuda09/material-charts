@@ -1,0 +1,20 @@
+.time-picker {
+
+  min-width: 700px;
+
+  .form-row {
+
+    display: inline-block;
+    margin-right: 15px;
+
+    md-input-container {
+
+      padding-left: 10px;
+
+      input {
+
+        min-width: 250px;
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+<md-sidenav-container>
+    <md-sidenav #sidenav class="sidenav" color="primary">
+        <md-nav-list>
+            <a md-list-item (click)="sidenav.close()" [routerLink]="['/']">
+                <md-icon md-list-icon>Home</md-icon>
+                <span md-line>Discover</span>
+            </a>
+            <a md-list-item (click)="sidenav.close()" [routerLink]="['/dashboards']">
+                <md-icon md-list-icon>dashboard</md-icon>
+                <span md-line>Dashboards</span>
+            </a>
+            <a md-list-item (click)="sidenav.close()" [routerLink]="['/visualisations']">
+                <md-icon md-list-icon>timeline</md-icon>
+                <span md-line>Visualisations</span>
+            </a>
+            <a md-list-item (click)="sidenav.close()" [routerLink]="['/settings']">
+                <md-icon md-list-icon>settings</md-icon>
+                <span md-line>Settings</span>
+            </a>
+        </md-nav-list>
+    </md-sidenav>
+
+    <div class="my-content">
+        <md-toolbar color="primary">
+            <button md-icon-button (click)="sidenav.open()">
+                <md-icon>menu</md-icon>
+            </button>
+            <h4 [routerLink]="['']">{{(user$ | async)?.name}}</h4>
+
+            <form class="filter-form" (ngSubmit)="filter(FilterForm.value, FilterForm.valid)" name="FilterForm" [formGroup]="FilterForm" novalidate method="post">
+                <div class="form-wrapper">
+                    <input type="text" class="form-control" value="*" formControlName="query">
+                </div>
+                <button md-icon-button type="submit" mdTooltip="Search">
+                    <md-icon>search</md-icon>
+                </button>
+            </form>
+
+
+            <div class="buttons-wrapper">
+                <button md-icon-button mdTooltip="Save dashboard">
+                    <md-icon>save</md-icon>
+                </button>
+                <button md-icon-button mdTooltip="Edit Visualisation">
+                    <md-icon>create</md-icon>
+                </button>
+                <button md-icon-button mdTooltip="Time picker" (click)="openTimePicker()">
+                    <md-icon>timer</md-icon>
+                </button>
+            </div>
+
+        </md-toolbar>
+        <div class="main">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+
+</md-sidenav-container>
+<router-outlet name="popup"></router-outlet>

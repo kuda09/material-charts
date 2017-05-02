@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="sidebar">
+    <div class="headline">
+      <h3>Index Patterns</h3>
+      <button md-mini-fab  mdTooltip="Add an indice" (click)="addIndice()">
+        <md-icon>add</md-icon>
+      </button>
+    </div>
+    <div class="indice-list">
+
+      <app-indice-list [indices]="indices$"></app-indice-list>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="wrapper">
+      <div class="display-indices-data">
+        <p *ngIf="indices$.length === 0" >No indices currently configured please click add to add an index pattern</p>
+        <app-indice-preview [indices]="indices$" (remove)="removeIndice($event)"></app-indice-preview>
+      </div>
+    </div>
+  </div>
+</div>

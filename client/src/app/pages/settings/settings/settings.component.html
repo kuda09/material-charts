@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Settings</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur dolore, enim et, ex expedita fuga iure iusto laboriosam maiores necessitatibus neque numquam officia quia quod rerum saepe, suscipit voluptate.</p>
+  <md-list>
+    <md-list-item  [routerLink]="['/settings/indices']">
+      <md-icon md-list-avatar>folder</md-icon>
+      <h3 md-header>Indices</h3>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item [routerLink]="['/settings/about']">
+      <md-icon md-list-avatar>visibility</md-icon>
+      <h3 md-header>About</h3>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item [routerLink]="['/settings/status']">
+      <md-icon md-list-avatar>build</md-icon>
+      <h3 md-header>Status</h3>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item [routerLink]="['/settings/vis-types']">
+      <md-icon md-list-avatar>timeline</md-icon>
+      <h3 md-header>Visualisations</h3>
+    </md-list-item>
+    <md-divider></md-divider>
+  </md-list>
+</div>

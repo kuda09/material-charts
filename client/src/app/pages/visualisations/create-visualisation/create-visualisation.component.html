@@ -1,0 +1,77 @@
+<div class="create-vis-container"[ngSwitch]="tab">
+  <div class="create-vis-step1 currentStep" *ngSwitchCase="0">
+    <div class="steps-header">
+      <div class="steps">
+        Step 1
+      </div>
+      <h3>Create a new visualisation</h3>
+    </div>
+
+    <div class="list-of-types-vis">
+      <md-card class="vis-card" *ngFor="let vis of visTypes" (click)="goToNextStep(vis)">
+        <md-card-header>
+          <h4><i class="material-icons">{{vis.icon}}</i>{{vis.name}}</h4>
+        </md-card-header>
+        <md-card-content>
+          <p>
+            {{vis.description}}
+          </p>
+        </md-card-content>
+      </md-card>
+    </div>
+
+    <div class="list-of-types-vis" *ngIf="visTypes.length === 0">
+      <p>You have no visualisation types currently installed. Please install visualisation types</p>
+    </div>
+  </div>
+
+
+  <div class="create-vis-step2 currentStep" *ngSwitchCase="1" >
+
+    <div class="steps-header">
+      <div class="steps">
+        Step 2
+      </div>
+      <h3>Select a search source</h3>
+    </div>
+
+    <div class="select-index">
+
+      <p *ngIf="indices.length === 0" class="text-center">
+        Please enter an index pattern before you can create a visualisation <br><br>
+
+        <a md-raised-button color="accent" [routerLink]="['/settings/indices']">Configure an Index Pattern</a>
+      </p>
+      <form (ngSubmit)="createVis(CreateVisForm.value, CreateVisForm.valid)" name="CreateVisForm" [formGroup]="CreateVisForm" novalidate *ngIf="indices.length > 0">
+
+        <input type="hidden" formControlName="id">
+        <section>
+          <md-input-container>
+            <input mdInput placeholder="Name" formControlName="name" required>
+          </md-input-container>
+        </section>
+
+        <md-select placeholder="Select an index" formControlName="index_pattern">
+          <md-option *ngFor="let indice of indices" [value]="indice">
+            {{indice.index}}
+          </md-option>
+        </md-select>
+
+        <section>
+          <md-input-container>
+                <textarea mdInput placeholder="Description" formControlName="description" rows="4">
+                </textarea>
+          </md-input-container>
+        </section>
+        <section>
+          <button md-raised-button color="accent" type="submit" [disabled]="CreateVisForm.invalid">Create</button>
+        </section>
+      </form>
+
+
+
+    </div>
+
+  </div>
+
+</div>

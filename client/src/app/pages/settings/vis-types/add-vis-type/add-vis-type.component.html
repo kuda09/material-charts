@@ -1,0 +1,32 @@
+<main>
+    <h2>Add a visualisation</h2>
+
+
+    <form (ngSubmit)="addVisTypes(AddVisTypeForm.value, AddVisTypeForm.valid)" name="AddVisTypeForm" [formGroup]="AddVisTypeForm">
+        <section>
+            <md-input-container>
+                <input mdInput placeholder="Name" formControlName="name" required>
+            </md-input-container>
+        </section>
+        <section>
+            <md-input-container>
+                <textarea mdInput placeholder="Description" formControlName="description" required rows="4">
+                </textarea>
+            </md-input-container>
+        </section>
+        <section>
+            <md-input-container>
+                <input mdInput placeholder="Icon" formControlName="icon" required>
+            </md-input-container>
+        </section>
+        <section>
+            <md-input-container>
+                <input mdInput placeholder="Selector" formControlName="selector" required>
+            </md-input-container>
+        </section>
+        <input type="hidden" formControlName="id">
+        <section>
+            <button md-raised-button color="accent" type="submit" [disabled]="AddVisTypeForm.invalid">Create</button>
+        </section>
+    </form>
+</main>

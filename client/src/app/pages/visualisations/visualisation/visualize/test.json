@@ -1,0 +1,46 @@
+{
+  "payload": {
+    "body": {
+      "query": {
+        "filtered": {
+          "query": {
+            "query_string": {
+              "query": "*",
+              "analyze_wildcard": true
+            }
+          }
+        }
+      },
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "range": {
+                "time_start": {
+                  "gte": 1489131326202,
+                  "lte": 1489736126203,
+                  "format": "epoch_millis"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "size": 0,
+      "aggs": {
+        "2": {
+          "date_histogram": {
+            "field": "active_to",
+            "time_zone": "Europe/London",
+            "min_doc_count": 1,
+            "extended_bounds": {
+              "min": 1489131326199,
+              "max": 1489736126199
+            },
+            "interval": "1d"
+          }
+        }
+      }
+    }
+  }
+}

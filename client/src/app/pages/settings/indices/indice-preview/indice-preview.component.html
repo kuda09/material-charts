@@ -1,0 +1,58 @@
+<div class="fields-viewer" *ngFor="let indice of indices">
+
+    <ng-container *ngIf="indice.selected">
+        <div class="heading">
+            <div><i class="material-icons">favorite</i></div>
+            <h2> {{indice.index}}</h2>
+            <div class="chips">
+                <md-chip-list><md-chip color="accent" (click)="deleteIndice(indice)"><i class="material-icons">delete</i></md-chip></md-chip-list>
+            </div>
+
+        </div>
+
+        <p>
+            This page lists every field in the <b>{{indice.index}}</b> index and the field's associated core type as recorded by Elasticsearch. While this list allows you to view the core type of each field, changing field types must be done using Elasticsearch's Mappings API
+        </p>
+
+        <md-tab-group>
+
+            <md-tab label="Fields ({{keysArray(mergeMappings(indice.mappings)).length}})">
+                <div class="doc-viewer-content">
+
+
+                    <div class="filter-indices">
+                        <h3>Filter field names</h3>
+                        <md-input-container>
+                            <input mdInput placeholder="type a field name" [(ngModel)]="term">
+                        </md-input-container>
+                    </div>
+
+                    <table class="striped">
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>type</th>
+                            <th>indexed</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr *ngFor="let field of keysArray(mergeMappings(indice.mappings)) | paginate: { itemsPerPage: 9, currentPage: p}">
+                            <td>{{field.value.name}}</td>
+                            <td>{{field.value.type}}</td>
+                            <td>{{field.value.index}}</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+
+                </div>
+            </md-tab>
+            <md-tab label="Scripted fields">
+            </md-tab>
+        </md-tab-group>
+    </ng-container>
+
+</div>

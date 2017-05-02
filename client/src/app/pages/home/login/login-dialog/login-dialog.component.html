@@ -1,0 +1,24 @@
+<div class="container">
+    <h3>Login</h3>
+    <div class="panel-body">
+
+        <form novalidate (ngSubmit)="login(LoginForm.value, LoginForm.valid)" name="LoginForm" [formGroup]="LoginForm">
+            <section>
+                <md-input-container>
+                    <input mdInput placeholder="Email address" required formControlName="username">
+                </md-input-container>
+            </section>
+
+            <section>
+                <md-input-container>
+                    <input mdInput placeholder="Password "required type="password" formControlName="password">
+                </md-input-container>
+            </section>
+
+            <section>
+                <button md-raised-button color="accent" type="submit" [disabled]="LoginForm.invalid">Submit</button>
+            </section>
+        </form>
+
+    </div>
+</div>

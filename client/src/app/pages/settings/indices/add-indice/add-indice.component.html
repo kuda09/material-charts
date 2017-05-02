@@ -1,0 +1,19 @@
+<main>
+  <h2>Configure an index pattern</h2>
+  <form (ngSubmit)="getIndices(IndicesForm.value, IndicesForm.valid)" name="IndicesForm" [formGroup]="IndicesForm">
+    <section>
+      <h3>Index name or pattern</h3>
+      <p>Patterns allow you to define dynamic index names using * as a wildcard. Example: logstash-*</p>
+      <md-input-container>
+        <input mdInput placeholder="logstash-*" formControlName="index" required>
+      </md-input-container>
+    </section>
+
+    <section class="error" *ngIf="errorMessage">
+      {{errorMessage._body | json}}
+    </section>
+    <section>
+      <button md-raised-button color="accent" type="submit" [disabled]="IndicesForm.invalid">Create</button>
+    </section>
+  </form>
+</main>

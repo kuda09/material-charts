@@ -1,0 +1,45 @@
+<div class="wrapper">
+    <div class="doc-viewer">
+        <md-tab-group>
+            <md-tab label="TABLE">
+                <div class="doc-viewer-content">
+                    <table class="striped">
+                        <thead>
+                        <tr>
+                            <th>_index</th>
+                            <th>_type</th>
+                            <th>_sources</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let hit of hits">
+                            <td>{{hit._index}}</td>
+                            <td>{{hit._type}}</td>
+                            <td>
+                                <div class="truncate-by-height">
+                                    <dl class="source" *ngFor="let field of hit._source | keys:'name', 'value'">
+                                        <dt *ngIf="field.value  !== ''">{{field.key}}:</dt>
+                                        <dd *ngIf="field.value  !== ''">{{field.value}}</dd>
+                                    </dl>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </md-tab>
+            <md-tab label="JSON">
+
+                <div ace-editor
+                     [(text)]="hitsString"
+                     [mode]="'json'"
+                     [theme]="'eclipse'"
+                     [options]="options"
+                     [readOnly]="true"
+                     [autoUpdateContent]="true"
+                     [durationBeforeCallback]="1000"
+                     style="min-height: 200px; width:100%; overflow: auto;"></div>
+            </md-tab>
+        </md-tab-group>
+    </div>
+</div>

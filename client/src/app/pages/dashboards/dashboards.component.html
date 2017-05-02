@@ -1,0 +1,39 @@
+<div class="container">
+  <button md-mini-fab (click)="addDashboard()" tabindex="-1">
+  <span class="mat-button-wrapper">
+    <md-icon aria-label="check">add</md-icon>
+  </span>
+    <div md-ripple>
+    </div>
+    <div class="mat-button-focus-overlay"></div>
+  </button>
+
+  <div class="dashboard-container">
+
+    <div class="heading-info" *ngIf="(dashboards$ | async ).length == 0 ">
+      <h2>Ready to get started</h2>
+      <p>Click the add button to add a dashboard</p>
+      <p>If you haven't setup a dashboard tab yet visit the <a  (click)="addDashboard()">Dashboard</a> tab to create your first visualisation</p>
+    </div>
+    <!--<code>
+      {{dashboards | json}}
+    </code>-->
+    <div class="dasboards-wrapper" *ngIf="(dashboards$ | async ).length > 0 ">
+      <md-card class="dashboard-card" *ngFor="let dashboard of dashboards$ | async">
+        <md-card-header>
+          <md-card-title><h4>{{dashboard.name}}</h4></md-card-title>
+        </md-card-header>
+        <md-card-content>
+          <p>
+           {{dashboard.description}}
+          </p>
+        </md-card-content>
+        <md-card-actions>
+          <button md-raised-button color="accent" [routerLink]="[dashboard.id]">View</button>
+          <button md-raised-button color="primary" [routerLink]="[dashboard.id + '/edit']">Edit</button>
+          <button md-raised-button color="warn"  (click)="deleteDashboard(dashboard)">Delete</button>
+        </md-card-actions>
+      </md-card>
+    </div>
+  </div>
+</div>

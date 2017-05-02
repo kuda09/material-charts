@@ -1,0 +1,74 @@
+.create-vis-container {
+  position: relative;
+  .steps-header {
+
+    > * {
+
+      display: inline-block;
+    }
+
+    .steps {
+
+      font-size: 24px;
+      vertical-align: middle;
+      display: inline-table;
+      margin-bottom: 10px;
+      background-color: #673ab7;
+      padding: 5px 10px;
+      color: #fff;
+
+      .material-icons {
+
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .create-vis-step1, .create-vis-step2 {
+
+    padding: 10px;
+
+    display: none;
+
+    &.currentStep {
+
+      display: block;
+    }
+  }
+  .list-of-types-vis {
+
+    .vis-card {
+
+      margin-bottom: 5px;
+      md-card-header {
+
+        .mat-card-header-text {
+
+          margin: 0;
+          height: 0;
+        }
+      }
+
+    }
+  }
+
+  .select-index {
+    margin-top: 20px;
+
+    width: 60%;
+    margin-left: auto;
+    margin-right:auto;
+
+    md-select, md-input-container{
+
+      width: 100%;
+    }
+  }
+
+  .text-center {
+
+    text-align: center;
+  }
+
+
+}

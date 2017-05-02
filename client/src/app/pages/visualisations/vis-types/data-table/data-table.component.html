@@ -1,0 +1,23 @@
+<p class="text-center" *ngIf="buckets.length === 0">No data available </p>
+
+<table class="striped" *ngIf="buckets.length !== 0">
+  <thead>
+  <tr>
+    <th>{{bucketName}}</th>
+    <th>{{metricName}}</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  <ng-container *ngFor="let bucket of buckets | paginate: { itemsPerPage: 10, currentPage: p} | orderBy : ['doc_count']">
+    <tr>
+      <ng-container>
+        <td>{{formatDate(bucket.key_as_string)}}</td>
+        <td>{{bucket.doc_count}}</td>
+      </ng-container>
+    </tr>
+  </ng-container>
+
+  </tbody>
+</table>
+<pagination-controls (pageChange)="p = $event" *ngIf="buckets.length !== 0"></pagination-controls>

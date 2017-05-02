@@ -1,0 +1,6 @@
+<div class="wrapper" [ngSwitch]="vis.type.options.chart.type">
+    <app-bar-chart *ngSwitchCase="'multiBarChart'" [buckets]="data" [chartState]="vis.type.options"></app-bar-chart>
+    <app-pie-chart *ngSwitchCase="'pieChart'" [buckets]="data" [chartState]="vis.type.options"></app-pie-chart>
+    <app-data-table *ngSwitchCase="'dataTable'" [buckets]="data" [chartState]="vis"></app-data-table>
+    <app-line-chart *ngSwitchCase="'lineChart'" [buckets]="data" [chartState]="vis.type.options"></app-line-chart>
+</div>

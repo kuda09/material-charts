@@ -1,0 +1,60 @@
+md-sidenav-container, .my-content {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+md-toolbar-row {
+
+  position: relative;
+}
+.main {
+  padding: 0 0;
+}
+
+md-sidenav-layout {
+  background: rgba(0, 0, 0, .03);
+}
+.sidenav {
+  width: 300px;
+}
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+
+.buttons-wrapper {
+
+  display: flex;
+  margin-left: auto;
+}
+
+.filter-form {
+
+  margin-left: auto;
+  display: flex;
+  margin-right: auto;
+
+  .form-wrapper {
+    background: #fff;
+    display: inline-block;
+
+  }
+
+  md-icon-button[type=submit] {
+
+    display: inline-block;
+  }
+
+  input[type=text] {
+
+    border: none;
+    font-size: 14px;
+    min-width: 500px;
+    padding: 7px 5px;
+  }
+}
+
+:focus {
+  outline: none;
+}
+

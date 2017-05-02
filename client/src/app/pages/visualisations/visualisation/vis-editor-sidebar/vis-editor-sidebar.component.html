@@ -1,0 +1,167 @@
+<div class="vis-editor-sidebar">
+    <form novalidate name="VisStateForm" [formGroup]="VisStateForm" (ngSubmit)="saveVis(VisStateForm.value)">
+        <div class="index-pattern">
+            {{vis.name}} <i>({{vis.index_pattern.index}})</i>
+        </div>
+        <md-tab-group>
+            <md-tab label="Data">
+                <fieldset formArrayName="metrics">
+                    <div class="metrics">
+                        <h4>Metrics</h4>
+
+                        <div class="metric" *ngFor="let metric of VisStateForm.controls.metrics.controls; let i = index">
+                            <div class="list">
+                                <fieldset [formGroupName]="i">
+                                    <fieldset formGroupName="agg">
+                                        <dl>
+                                            <dt>
+                                            <!--<div class="toggle" (click)="toggleMetricState(i)"><i class="material-icons">keyboard_arrow_up</i></div>-->
+                                            <h5>Y-Axis </h5>
+                                            <h5 class="metric-type">Count</h5>
+                                            <div class="actions">
+                                                <i class="material-icons" (click)="removeMetric(i)" *ngIf="VisStateForm.controls.metrics.controls.length > 1">close</i>
+                                            </div>
+                                            </dt>
+                                            <dd>
+                                                <div>
+                                                    <md-select placeholder="Aggregation" formControlName="aggregration">
+                                                        <md-option [value]="'count'">Count</md-option>
+                                                        <md-option [value]="'max'">Max</md-option>
+                                                        <md-option [value]="'min'">Min</md-option>
+                                                    </md-select>
+                                                </div>
+                                                <div>
+                                                    <md-input-container>
+                                                        <input mdInput placeholder="Custom Label" formControlName="customLabel">
+                                                    </md-input-container>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                    </fieldset>
+                                </fieldset>
+                            </div>
+                        </div>
+
+                        <button md-mini-fab mdTooltip="Add Metric" [mdTooltipPosition]="'above'" (click)="addMetric()">
+                          <span class="mat-button-wrapper">
+                            <md-icon aria-label="check">add</md-icon>
+                          </span>
+                        </button>
+
+                    </div>
+                </fieldset>
+                <fieldset formGroupName="buckets">
+                    <div class="buckets">
+                        <h4>Buckets</h4>
+
+                        <div class="bucket" *ngFor="let bucket of VisStateForm.controls.buckets.controls; let i = index">
+                            <div class="list">
+
+                                <fieldset [formGroupName]="i">
+                                    <fieldset formGroupName="agg">
+                                    <dl>
+                                        <dt>
+                                            <!--<div class="toggle" (click)="toggle"><i class="material-icons">keyboard_arrow_up</i></div>-->
+                                        <h5>X-Axis </h5>
+                                        <h5 class="metric-type">Date</h5>
+                                        <div class="actions">
+                                            <i class="material-icons" (click)="removeBucket(i)" *ngIf="VisStateForm.controls.buckets.controls.length > 1">close</i>
+                                        </div>
+                                        </dt>
+                                        <dd>
+                                            <div>
+                                                <md-select placeholder="Aggregation" formControlName="aggregration">
+                                                    <md-option [value]="'date_histogram'">
+                                                        Date Histogram
+                                                    </md-option>
+                                                </md-select>
+                                            </div>
+
+                                            <div>
+                                                <md-select placeholder="Field" formControlName="field">
+                                                    <md-option *ngFor="let field of dateFields" [value]="field.name">{{field.name}}</md-option>
+                                                </md-select>
+                                            </div>
+
+                                            <div>
+                                                <md-select placeholder="Interval" formControlName="interval">
+                                                    <md-option *ngFor="let interval of intervals" [value]="interval">{{interval}}</md-option>
+                                                </md-select>
+                                            </div>
+
+                                            <div>
+                                                <md-input-container>
+                                                    <input mdInput placeholder="Custom Label" formControlName="customLabel">
+                                                </md-input-container>
+                                            </div>
+
+                                        </dd>
+                                    </dl>
+                                </fieldset>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <!--<div class="select-bucket-type">
+                            <h4>Select buckets type</h4>
+                            <md-list>
+                                <md-list-item>Split Rows</md-list-item>
+                                <md-list-item>Split Table</md-list-item>
+                            </md-list>
+                        </div>-->
+
+                        <button md-mini-fab  mdTooltip="Add buckets" [mdTooltipPosition]="'above'" (click)="addBucket()">
+                          <span class="mat-button-wrapper">
+                            <md-icon aria-label="check">add</md-icon>
+                          </span>
+                        </button>
+
+
+                    </div>
+                </fieldset>
+            </md-tab>
+            <md-tab label="Options">
+                <div class="options">
+                    <h4>Chart Options</h4>
+                    <div class="options-wrapper">
+
+                        <fieldset formGroupName="type">
+
+
+                            <input type="hidden" formControlName="name">
+                            <input type="hidden" formControlName="icon">
+                            <input type="hidden" formControlName="id">
+                            <input type="hidden" formControlName="description">
+
+                            <div ace-editor
+                                 [(text)]="VisStateForm.controls.type.controls.options.value"
+                                 [mode]="'json'"
+                                 [theme]="'eclipse'"
+                                 [options]="options"
+                                 [readOnly]="false"
+                                 [autoUpdateContent]="true"
+                                 (textChanged)="onChange($event)"
+                                 [durationBeforeCallback]="1000"
+                                 style="min-height: 400px; width:100%; overflow: auto;"></div>
+
+                            <md-input-container style="display: none">
+                            <textarea mdInput placeholder="Options" formControlName="options" rows="12">
+                            </textarea>
+                            </md-input-container>
+                        </fieldset>
+
+                        <!--<section mdTooltip="Changing this name will change the type">
+                            <md-select placeholder="Field" formControlName="name">
+                                <md-option *ngFor="let visType of visTypes" [value]="visType.name">{{visType.name}}</md-option>
+                            </md-select>
+                        </section>
+                        <md-input-container>
+                            <textarea mdInput placeholder="Description" formControlName="description" rows="4">
+                            </textarea>
+                        </md-input-container>-->
+                    </div>
+                </div>
+            </md-tab>
+        </md-tab-group>
+        <button md-raised-button color="accent" type="submit" [disabled]="VisStateForm.invalid || VisStateForm.untouched">Save</button>
+    </form>
+</div>

@@ -1,0 +1,18 @@
+.create-dashboard-container {
+
+  width: 400px;
+  md-input-container {
+
+    display: block;
+    margin-bottom: 20px;
+
+    input, textarea {
+
+      min-width: 350px;
+    }
+    texarea {
+
+      min-height: 200px;
+    }
+  }
+}
