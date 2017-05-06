@@ -3,6 +3,13 @@
     "module": "commonjs",
     "target": "es6",
     "sourceMap": true,
+    "types": [
+      "mocha",
+      "node"
+    ],
+    "typeRoots": [
+      "../node_modules"
+    ],
     "experimentalDecorators": true
   },
   "exclude": [

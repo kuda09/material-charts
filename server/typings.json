@@ -2,6 +2,7 @@
   "name": "tomi",
   "dependencies": {
     "bluebird": "registry:npm/bluebird#3.5.0+20170314181206",
+    "chai": "registry:npm/chai#3.5.0+20160723033700",
     "dotenv": "registry:dt/dotenv#2.0.0+20170113195346",
     "express": "registry:dt/express#4.0.0+20170118060322",
     "hapi": "registry:dt/hapi#16.0.0+20170125175540",
@@ -13,6 +14,8 @@
   },
   "globalDependencies": {
     "elasticsearch": "registry:dt/elasticsearch#5.0.0+20170117233756",
+    "faker": "registry:dt/faker#4.1.0+20170308192816",
+    "mocha": "registry:dt/mocha#2.2.5+20170311011848",
     "node": "registry:dt/node#7.0.0+20170204020307"
   }
 }

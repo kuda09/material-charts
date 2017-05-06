@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Store} from "@ngrx/store";
-import {IApplicationState} from "../../../store/state/application.state";
+import {IApplication} from "../../../store/state/application.state";
 import {IVisTypes} from "../../../store/state/visTypes.state";
 import {IIndices} from "../../../store/state/indices.state";
 import {FormGroup, FormBuilder, Validators} from "@angular/forms";
@@ -21,7 +21,7 @@ export class CreateVisualisationComponent implements OnInit {
     type: string;
     tab = 0;
 
-    constructor(private store: Store<IApplicationState>, private _fb: FormBuilder, private router: Router) {
+    constructor(private store: Store<IApplication>, private _fb: FormBuilder, private router: Router) {
         store.select('visTypes')
             .subscribe((visTypes: IVisTypes) => {
 

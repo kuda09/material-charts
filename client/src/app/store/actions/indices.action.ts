@@ -6,6 +6,7 @@ import {IIndice} from "../state/indices.state";
 export const ActionTypes = {
     ADD_INDICE: type('[Indices] ADD INDICE'),
     ADD_INDICE_SUCCESS: type('[Indices] ADD INDICE SUCCESS'),
+    RESET_INDICES: type('[Indices] RESET INDICES'),
     ADD_INDICE_FAILED: type('[Indices] ADD INDICE FAILED'),
     SELECT_INDICE: type('[Indices] SELECT INDICE'),
     REMOVE_INDICE: type('[Indices] REMOVE INDICE'),
@@ -55,15 +56,20 @@ export class RemoveIndiceFailedAction implements Action {
     }
 
 }
-
 export class SelectIndiceAction implements Action {
 
     type = ActionTypes.SELECT_INDICE;
 
     constructor(public payload: IIndice) {}
 }
+export class ResetIndicesAction implements Action {
+
+    type = ActionTypes.RESET_INDICES;
+
+    constructor(public payload) {}
+}
 
 
-export type Actions = AddIndiceAction | AddIndiceSuccessAction | AddIndiceFailedAction | RemoveIndiceAction | RemoveIndiceSuccessAction | RemoveIndiceFailedAction | SelectIndiceAction;
+export type Actions = AddIndiceAction | AddIndiceSuccessAction | AddIndiceFailedAction | RemoveIndiceAction | RemoveIndiceSuccessAction | RemoveIndiceFailedAction | SelectIndiceAction | ResetIndicesAction;
 
 

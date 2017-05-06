@@ -2,7 +2,7 @@ import {Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {FormGroup, FormBuilder, Validators} from "@angular/forms";
 import {Store} from "@ngrx/store";
 import {Observable} from "rxjs";
-import {IApplicationState} from "../../../../store/state/application.state";
+import {IApplication} from "../../../../store/state/application.state";
 import {HttpService} from "../../../../services/http.service";
 import {AddIndiceAction} from "../../../../store/actions/indices.action";
 
@@ -21,7 +21,7 @@ export class AddIndiceComponent implements OnInit {
 
   constructor(
       private _fb: FormBuilder,
-      private store: Store<IApplicationState>,
+      private store: Store<IApplication>,
       private httpService: HttpService
   ) {
 

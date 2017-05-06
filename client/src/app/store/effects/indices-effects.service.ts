@@ -10,7 +10,7 @@ import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/switchMap';
 import 'rxjs/add/operator/take';
-import {IApplicationState} from "../state/application.state";
+import {IApplication} from "../state/application.state";
 import {Router} from "@angular/router";
 import {MdSnackBar} from "@angular/material";
 
@@ -18,7 +18,7 @@ import {MdSnackBar} from "@angular/material";
 @Injectable()
 export class IndicesEffectsService {
 
-    constructor(private action$: Actions, private httpService: HttpService, private store: Store<IApplicationState>, private snackbar: MdSnackBar, private router: Router) {
+    constructor(private action$: Actions, private httpService: HttpService, private store: Store<IApplication>, private snackbar: MdSnackBar, private router: Router) {
     }
 
 

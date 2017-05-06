@@ -1,7 +1,7 @@
 import {Component, OnInit, ViewChild, Input, AfterViewInit} from '@angular/core';
 import {HttpService} from "../../../services/http.service";
 import {Store} from "@ngrx/store";
-import {IApplicationState} from "../../../store/state/application.state";
+import {IApplication} from "../../../store/state/application.state";
 import {ISearches} from "../../../store/state/search.state";
 
 @Component({
@@ -14,7 +14,7 @@ export class DocViewerComponent implements OnInit, AfterViewInit {
     @ViewChild('editor') editor;
     hits = [];
     hitsString: string = '';
-    constructor(private httpService: HttpService, private store: Store<IApplicationState>) {
+    constructor(private httpService: HttpService, private store: Store<IApplication>) {
     }
 
 

@@ -5,7 +5,7 @@ import {HttpModule, Http, RequestOptions} from '@angular/http';
 
 import {AppComponent} from './app.component';
 import 'hammerjs';
-import {MaterialModule} from "@angular/material";
+import {MaterialModule, MdMenu} from "@angular/material";
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {appRoutingProviders, AppRoutingModule} from "./app.routing";
 import {DashboardsComponent} from './pages/dashboards/dashboards.component';
@@ -15,7 +15,6 @@ import {addDashboardDialog} from "./pages/dashboards/addDashboard/add.dashboard.
 import {VisualisationsSidebarComponent} from './pages/visualisations/visualisation/visualisations-sidebar/visualisations-sidebar.component';
 import {DocViewerComponent} from './pages/home/doc-viewer/doc-viewer.component';
 import {AceEditorComponent, AceEditorDirective} from 'ng2-ace-editor';
-import {ChartsModule} from 'ng2-charts/ng2-charts';
 
 import {HttpService} from "./services/http.service";
 import {IndicesComponent} from './pages/settings/indices/indices.component';
@@ -36,7 +35,6 @@ import {LineChartComponent} from './pages/visualisations/vis-types/line-chart/li
 import {BarChartComponent} from './pages/visualisations/vis-types/bar-chart/bar-chart.component';
 import {PieChartComponent} from './pages/visualisations/vis-types/pie-chart/pie-chart.component';
 import {CountComponent} from './pages/visualisations/vis-types/count/count.component';
-import {DragulaModule} from "ng2-dragula";
 import {LoginComponent} from './pages/home/login/login.component';
 import {LoginDialogComponent} from './pages/home/login/login-dialog/login-dialog.component';
 import {UserEffectsService} from "./store/effects/user-effects.service";
@@ -65,6 +63,11 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {Auth, AuthHttpServiceFactory} from "./services/auth.service";
 import {AuthModule} from "./auth/auth.module";
 import {AuthGuard} from "./services/auth-guard.service";
+import {CovalentSearchModule, CovalentPagingModule} from '@covalent/core';
+import {CovalentNotificationsModule} from '@covalent/core';
+import {CovalentDialogsModule} from '@covalent/core';
+import {CovalentLoadingModule} from '@covalent/core';
+import {Md2Module}  from 'md2';
 
 declare const d3: any;
 
@@ -110,6 +113,12 @@ declare const d3: any;
     ],
     imports: [
         BrowserModule,
+        Md2Module.forRoot(),
+        CovalentSearchModule,
+        CovalentLoadingModule,
+        CovalentNotificationsModule,
+        CovalentPagingModule,
+        CovalentDialogsModule,
         DatepickerModule,
         Ng2PaginationModule,
         NgxDatatableModule,
@@ -127,9 +136,7 @@ declare const d3: any;
         NoopAnimationsModule,
         MaterialModule,
         AuthModule,
-        FlexLayoutModule,
-        ChartsModule,
-        DragulaModule
+        FlexLayoutModule
     ],
     entryComponents: [
         AddIndiceComponent,

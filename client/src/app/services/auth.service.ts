@@ -34,7 +34,7 @@ export class Auth {
         headers.append("Authorization", "Basic " + btoa(username + ":" + password));
         headers.append("Content-Type", "application/json");
 
-        return this.http.get(`http://localhost:3000/api/login`, {headers: headers})
+        return this.http.get(`api/login`, {headers: headers})
             .map(res => res.json());
     }
 

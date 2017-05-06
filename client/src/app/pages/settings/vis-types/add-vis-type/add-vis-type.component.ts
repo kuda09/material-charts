@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {Store} from "@ngrx/store";
-import {IApplicationState} from "../../../../store/state/application.state";
+import {IApplication} from "../../../../store/state/application.state";
 import {HttpService} from "../../../../services/http.service";
 import {generateUniqueId} from "../../../../util";
 import {InstallVisAction} from "../../../../store/actions/visTypes.action";
@@ -20,7 +20,7 @@ export class AddVisTypeComponent implements OnInit {
   constructor(
       private dialog: MdDialog,
       private _fb: FormBuilder,
-      private store: Store<IApplicationState>,
+      private store: Store<IApplication>,
       private httpService: HttpService
   ) {
 

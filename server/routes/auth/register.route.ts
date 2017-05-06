@@ -4,7 +4,7 @@
 
 import * as hapi from "hapi";
 import {registerSchema} from "../../schemas/register.schema";
-import {createUserController} from "../../controllers/auth/user.controller";
+import {createUser} from "../../controllers/auth/user.controller";
 
 export const registerRouter = (server: hapi.Server) => {
 
@@ -17,7 +17,7 @@ export const registerRouter = (server: hapi.Server) => {
 
                 const payload = request.payload;
 
-                createUserController(payload)
+                createUser(payload)
                     .then(token => {
                         reply({token: token});
                     })

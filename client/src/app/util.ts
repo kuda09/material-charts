@@ -2,7 +2,7 @@ import * as _ from 'lodash';
 import {IIndice} from "./store/state/indices.state";
 import * as moment from 'moment';
 import * as uuid from 'uuid';
-import {IApplicationState} from "./store/state/application.state";
+import {IApplication} from "./store/state/application.state";
 
 const bodyBuilder = require('bodybuilder');
 
@@ -19,7 +19,7 @@ export function type<T>(label: T | ''): T {
     return <T>label;
 
 }
-export function getSelectedIndiceIndexAndType(state: IApplicationState) {
+export function getSelectedIndiceIndexAndType(state: IApplication) {
 
     let indices = state.indices;
 

@@ -65,6 +65,11 @@ export function indiceReducer(state = INITIAL_INDICE_STATE, action: Actions) : I
             return newState;
         }
 
+        case ActionTypes.RESET_INDICES: {
+
+            return  [];
+        }
+
         default: {
 
             return state;
@@ -75,6 +80,6 @@ export function indiceReducer(state = INITIAL_INDICE_STATE, action: Actions) : I
 
 
 
-export const _getIndices = (state: IIndices) => state;
+export const indices = (state: IIndices) => state;
 
 

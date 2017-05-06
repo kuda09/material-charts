@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import {INITIAL_VISUALISATIONS_STATE, IVisualisationsState} from "../state/vis.state";
+import {INITIAL_VISUALISATIONS_STATE, IVisualisations} from "../state/vis.state";
 import {Actions, ActionTypes} from "../actions/vis.action";
 import {LocalStorageService} from '../../services/local-storage.service';
 import {IVisualisation} from "../state/interfaces/vis.interface";
@@ -16,7 +16,7 @@ const saveToLocalStorage = (state, type) => {
 
 }
 
-export function visualisationsStateReducer(state = INITIAL_VISUALISATIONS_STATE, action: Actions): IVisualisationsState {
+export function visualisationsStateReducer(state = INITIAL_VISUALISATIONS_STATE, action: Actions): IVisualisations {
 
     switch (action.type) {
 
@@ -42,7 +42,6 @@ export function visualisationsStateReducer(state = INITIAL_VISUALISATIONS_STATE,
             return newState;
         }
 
-
         case ActionTypes.EDIT_VISUALISATION_SUCCESS: {
 
             const _vis = action.payload;
@@ -63,6 +62,11 @@ export function visualisationsStateReducer(state = INITIAL_VISUALISATIONS_STATE,
             return  newState;
         }
 
+        case ActionTypes.RESET_VISUALISATIONS: {
+
+            return  [];
+        }
+
         default: {
 
             return state;
@@ -73,4 +77,4 @@ export function visualisationsStateReducer(state = INITIAL_VISUALISATIONS_STATE,
 
 
 
-export const _getVis = (state: IVisualisationsState) => state;
+export const _getVis = (state: IVisualisations) => state;

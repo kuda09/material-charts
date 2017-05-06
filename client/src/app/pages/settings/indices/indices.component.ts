@@ -4,7 +4,7 @@ import {AddIndiceComponent} from "./add-indice/add-indice.component";
 import { Store} from "@ngrx/store";
 import {Observable} from "rxjs";
 import {IIndices} from "../../../store/state/indices.state";
-import {IApplicationState} from "../../../store/state/application.state";
+import {IApplication} from "../../../store/state/application.state";
 import {RemoveIndiceSuccessAction, RemoveIndiceAction} from "../../../store/actions/indices.action";
 
 @Component({
@@ -18,7 +18,7 @@ export class IndicesComponent implements OnInit, OnDestroy {
     indices$: IIndices;
     sub$;
 
-    constructor(public dialog: MdDialog, private store: Store<IApplicationState>) {
+    constructor(public dialog: MdDialog, private store: Store<IApplication>) {
 
     }
 

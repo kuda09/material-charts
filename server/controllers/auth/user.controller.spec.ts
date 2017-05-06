@@ -1,12 +1,33 @@
-///<reference path="../../typings/modules/mongoose/index.d.ts"/>
-///<reference path="../../typings/globals/node/index.d.ts"/>
-///<reference path="../../typings/modules/passport/index.d.ts"/>
-///<reference path="../../typings/modules/bluebird/index.d.ts"/>
-///<reference path="../../typings/modules/lodash/index.d.ts"/>
-///<reference path="../../typings/modules/hapi/index.d.ts"/>
+/// <reference path="../../typings/modules/chai/index.d.ts" />
+/// <reference path="../../typings/globals/faker/index.d.ts" />
 
-const mongoose = require('mongoose');
-const promise = require('bluebird');
-const passport = require('passport');
-const user = require('./../../schemas/user.schema');
+
+import { UserController} from "./user.controller";
+import {expect, assert} from "chai";
+import * as faker from "faker";
+import 'mocha';
+
+
+
+
+describe("User Controller",  () => {
+
+    it("createUser() should create a user", () => {
+
+        const fakerUser = {
+            username: faker.internet.email(),
+            name: faker.name.firstName(),
+            lastname: faker.name.lastName(),
+            password: faker.internet.password()
+        }
+
+        const result = UserController.createUser(fakerUser)
+        .then(token => {
+
+            assert.typeOf(token, "string");
+        })
+
+    
+    })
+})
 

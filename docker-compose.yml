@@ -3,14 +3,14 @@ version: '2.0' # specify docker-compose version
 # Define the services/containers to be run
 services:
   material-charts-client: # name of the first service
-    build: material-charts-client # specify the directory of the Dockerfile
+    build: client # specify the directory of the Dockerfile
     ports:
-      - "4210:4210" # specify port forewarding
+      - "8888:8888" # specify port forewarding
 
   material-charts-server: #name of the second service
-    build: material-charts-server # specify the directory of the Dockerfile
+    build: server # specify the directory of the Dockerfile
     ports:
-      - "3000:3000" #specify ports forewarding
+      - "3100:3100" #specify ports forewarding
     links:
       - material-charts-db # link this service to the database service
 
@@ -19,6 +19,3 @@ services:
     ports:
       - "27017:27017" # specify port forewarding
     command: "--smallfiles --logpath=/dev/null"
-
-  mongo-importer:
-        build: .

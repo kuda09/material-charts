@@ -3,12 +3,15 @@ import {FormGroup, FormBuilder, Validators} from "@angular/forms";
 import * as fromRoot from "./store/reducers/application.reducer"
 import {Store} from "@ngrx/store";
 import {Observable} from "rxjs";
-import {IApplicationState} from "./store/state/application.state";
+import {IApplication} from "./store/state/application.state";
 import {IUser} from "./store/state/user.state";
 import {MdDialog} from "@angular/material";
 import {TimePickerComponent} from "./time-picker/time-picker.component";
 import 'rxjs/add/operator/take';
 import {Router} from "@angular/router";
+import {LocalStorageService} from "./services/local-storage.service";
+import {RemoveUserAction} from "./store/actions/user.action";
+import {TdLoadingService, LoadingMode, LoadingType} from "@covalent/core";
 
 @Component({
     selector: 'app-root',
@@ -21,13 +24,15 @@ export class AppComponent implements OnInit {
     user$: Observable<IUser>;
     type;
 
+
+
     constructor(private _fb: FormBuilder,
                 private router: Router,
-                private store: Store<IApplicationState>,
+                private _loadingService: TdLoadingService,
+                private store: Store<IApplication>,
                 public dialog: MdDialog) {
 
-        this.user$ = store.select(fromRoot.getUser);
-
+        this.user$ = store.select(fromRoot.userSelector);
     }
 
     ngOnInit() {
@@ -35,7 +40,12 @@ export class AppComponent implements OnInit {
         this.FilterForm = this._fb.group({
             query: ['*', Validators.required]
         });
-        //this.router.navigate([{outlets: {popup: 'login'}}]);
+        this._loadingService.create({
+            name: 'configFullscreenDemo',
+            mode: LoadingMode.Indeterminate,
+            type: LoadingType.Linear,
+            color: 'accent',
+        });
 
     }
 
@@ -47,6 +57,15 @@ export class AppComponent implements OnInit {
 
         this.dialog.open(TimePickerComponent);
     }
+
+    signOut() {
+
+        this.store.dispatch(new RemoveUserAction());
+
+        this.router.navigate(["login"]);
+    }
+
+
 
 
 }

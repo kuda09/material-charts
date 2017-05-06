@@ -2,7 +2,7 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {Store} from "@ngrx/store";
 import {LoginAction} from '../../../../store/actions/user.action'
-import {IApplicationState} from "../../../../store/state/application.state";
+import {IApplication} from "../../../../store/state/application.state";
 
 
 @Component({
@@ -16,7 +16,7 @@ export class LoginDialogComponent implements OnInit {
     public LoginForm: FormGroup;
 
     constructor(private _fb: FormBuilder,
-                private store: Store<IApplicationState>) {
+                private store: Store<IApplication>) {
     }
 
     ngOnInit() {

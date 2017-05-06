@@ -1,7 +1,7 @@
 import {Component, OnInit} from "@angular/core";
 import {FormGroup, FormBuilder, Validators} from "@angular/forms";
 import {Store} from "@ngrx/store";
-import {IApplicationState} from "../../../store/state/application.state";
+import {IApplication} from "../../../store/state/application.state";
 import {HttpService} from "../../../services/http.service";
 import {generateUniqueId} from "../../../util";
 import {AddDashboardAction} from "../../../store/actions/dashboards.action";
@@ -18,7 +18,7 @@ export class addDashboardDialog implements OnInit {
     public AddDashboardForm: FormGroup;
 
     constructor(private _fb: FormBuilder,
-    private store: Store<IApplicationState>,
+    private store: Store<IApplication>,
     private httpService: HttpService,
     private dialog: MdDialog) {
 

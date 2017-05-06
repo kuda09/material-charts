@@ -2,288 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2228d03-b94f-468e-98e5-05fcf58931a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/=2.1.0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/=2.1.0-dev" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/.dockerignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/angular-cli.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/e2e/app.e2e-spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/e2e/app.po.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/e2e/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/protractor.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/proxy.conf.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/shared/models/query.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/shared/models/searchSchema.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/app.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/app.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/app.routing.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/auth/auth.module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/chartTypeOptions.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/models/indice.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/addDashboard/add.dashboard.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/addDashboard/add.dashboard.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/addDashboard/addDashboardDialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/dashboards.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/dashboards.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/dashboards.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/dashboards.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/edit-dashboard/edit-dashboard.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/edit-dashboard/edit-dashboard.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/edit-dashboard/edit-dashboard.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/edit-dashboard/edit-dashboard.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/view-dashboard/view-dashboard.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/view-dashboard/view-dashboard.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/view-dashboard/view-dashboard.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/view-dashboard/view-dashboard.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/check-indices/check-indices.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/check-indices/check-indices.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/check-indices/check-indices.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/check-indices/check-indices.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/doc-viewer/doc-viewer.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/doc-viewer/doc-viewer.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/doc-viewer/doc-viewer.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/doc-viewer/doc-viewer.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/home.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/home.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/home.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/home.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/about/about.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/about/about.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/about/about.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/about/about.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/add-indice/add-indice.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/add-indice/add-indice.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/add-indice/add-indice.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/add-indice/add-indice.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-list/indice-list.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-list/indice-list.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-list/indice-list.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-list/indice-list.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-preview/indice-preview.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-preview/indice-preview.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-preview/indice-preview.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-preview/indice-preview.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indices.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indices.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indices.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indices.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/settings/settings.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/settings/settings.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/settings/settings.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/settings/settings.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/status/status.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/status/status.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/status/status.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/status/status.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/add-vis-type/add-vis-type.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/add-vis-type/add-vis-type.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/add-vis-type/add-vis-type.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/add-vis-type/add-vis-type.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/edit-vis-type/edit-vis-type.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/edit-vis-type/edit-vis-type.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/edit-vis-type/edit-vis-type.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/edit-vis-type/edit-vis-type.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/vis-types.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/vis-types.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/vis-types.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/vis-types.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/bar-chart/bar-chart.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/bar-chart/bar-chart.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/bar-chart/bar-chart.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/bar-chart/bar-chart.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/count/count.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/count/count.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/count/count.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/count/count.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/data-table/data-table.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/data-table/data-table.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/data-table/data-table.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/data-table/data-table.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/line-chart/line-chart.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/line-chart/line-chart.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/line-chart/line-chart.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/line-chart/line-chart.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/pie-chart/pie-chart.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/pie-chart/pie-chart.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/pie-chart/pie-chart.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/pie-chart/pie-chart.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisations-sidebar/visualisations-sidebar.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisations-sidebar/visualisations-sidebar.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisations-sidebar/visualisations-sidebar.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisations-sidebar/visualisations-sidebar.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualize/test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualize/visualize.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualize/visualize.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualize/visualize.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualize/visualize.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pipes/keys.pipe.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pipes/keys.pipe.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pipes/order-by.pipe.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/pipes/order-by.pipe.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/query_builder.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/resultsFormatter.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/auth-guard.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/auth-guard.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/auth.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/auth.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/dialog-service.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/dialog-service.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/http.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/http.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/local-storage.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/local-storage.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/actions/dashboards.action.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/actions/indices.action.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/actions/search.action.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/actions/user.action.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/actions/vis.action.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/actions/visTypes.action.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/indices-effects.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/indices-effects.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/search-effects.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/search-effects.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/user-effects.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/user-effects.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/vis-types-effects.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/vis-types-effects.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/visualisations-effects.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/effects/visualisations-effects.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/middleware/local-storage.middlware.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/application.reducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/dashboards.reducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/indices.reducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/search.reducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/user.reducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/vis.reducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/visTypes.reducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/state/application.state.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/state/dashboards.state.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/state/indices.state.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/state/interfaces/vis.interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/state/search.state.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/state/user.state.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/state/vis.state.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/store/state/visTypes.state.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/util.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/vis_utils.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/lib/vkbeautify.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/environments/environment.prod.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/environments/environment.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/polyfills.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/styles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/tslint.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-client" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/.env" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/globals/elasticsearch/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/globals/elasticsearch/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/globals/node/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/globals/node/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/bluebird/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/bluebird/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/dotenv/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/dotenv/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/express/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/express/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/hapi/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/hapi/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/joi/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/joi/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/jsonwebtoken/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/jsonwebtoken/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/lodash/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/lodash/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/mongoose/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/mongoose/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/passport/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/material-charts-server/typings/modules/passport/typings.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/.dockerignore" afterPath="$PROJECT_DIR$/server/.dockerignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/.idea/dictionaries/admin.xml" afterPath="$PROJECT_DIR$/server/.idea/dictionaries/admin.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/server/.idea/jsLibraryMappings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/.idea/material-charts-server.iml" afterPath="$PROJECT_DIR$/server/.idea/material-charts-server.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/.idea/misc.xml" afterPath="$PROJECT_DIR$/server/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/.idea/modules.xml" afterPath="$PROJECT_DIR$/server/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/.idea/mongoSettings.xml" afterPath="$PROJECT_DIR$/server/.idea/mongoSettings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/server/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/Dockerfile" afterPath="$PROJECT_DIR$/server/Dockerfile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/connections/db.connection.ts" afterPath="$PROJECT_DIR$/server/connections/db.connection.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/connections/elastic-search.connection.ts" afterPath="$PROJECT_DIR$/server/connections/elastic-search.connection.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/controllers/auth/user.controller.spec.ts" afterPath="$PROJECT_DIR$/server/controllers/auth/user.controller.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/controllers/auth/user.controller.ts" afterPath="$PROJECT_DIR$/server/controllers/auth/user.controller.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/controllers/collections/dashboards.controller.ts" afterPath="$PROJECT_DIR$/server/controllers/collections/dashboards.controller.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/controllers/collections/indices.controller.ts" afterPath="$PROJECT_DIR$/server/controllers/collections/indices.controller.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/controllers/collections/visualisations.controller.ts" afterPath="$PROJECT_DIR$/server/controllers/collections/visualisations.controller.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/controllers/elastic-search/query-es.controller.ts" afterPath="$PROJECT_DIR$/server/controllers/elastic-search/query-es.controller.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/controllers/strategies/auth.basic.ts" afterPath="$PROJECT_DIR$/server/controllers/strategies/auth.basic.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/formatters/indices.formatter.ts" afterPath="$PROJECT_DIR$/server/formatters/indices.formatter.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/index.ts" afterPath="$PROJECT_DIR$/server/index.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/package.json" afterPath="$PROJECT_DIR$/server/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/auth/login.route.ts" afterPath="$PROJECT_DIR$/server/routes/auth/login.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/auth/register.route.ts" afterPath="$PROJECT_DIR$/server/routes/auth/register.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/collections/dashboards.route.ts" afterPath="$PROJECT_DIR$/server/routes/collections/dashboards.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/collections/indices.route.ts" afterPath="$PROJECT_DIR$/server/routes/collections/indices.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/collections/visualisations.route.ts" afterPath="$PROJECT_DIR$/server/routes/collections/visualisations.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/elastic-search/index-count.route.ts" afterPath="$PROJECT_DIR$/server/routes/elastic-search/index-count.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/elastic-search/indices.route.ts" afterPath="$PROJECT_DIR$/server/routes/elastic-search/indices.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/elastic-search/info.route.ts" afterPath="$PROJECT_DIR$/server/routes/elastic-search/info.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/elastic-search/search.route.ts" afterPath="$PROJECT_DIR$/server/routes/elastic-search/search.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/home.route.ts" afterPath="$PROJECT_DIR$/server/routes/home.route.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/routes/index.ts" afterPath="$PROJECT_DIR$/server/routes/index.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/schemas/indices.schema.ts" afterPath="$PROJECT_DIR$/server/schemas/indices.schema.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/schemas/login.schema.ts" afterPath="$PROJECT_DIR$/server/schemas/login.schema.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/schemas/register.schema.ts" afterPath="$PROJECT_DIR$/server/schemas/register.schema.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/schemas/search.schema.ts" afterPath="$PROJECT_DIR$/server/schemas/search.schema.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/schemas/user.schema.ts" afterPath="$PROJECT_DIR$/server/schemas/user.schema.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/server.ts" afterPath="$PROJECT_DIR$/server/server.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/tsconfig.json" afterPath="$PROJECT_DIR$/client/tsconfig.app.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/tslint.json" afterPath="$PROJECT_DIR$/client/tslint.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/typings.json" afterPath="$PROJECT_DIR$/server/typings.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/material-charts-server/yarn.lock" afterPath="$PROJECT_DIR$/server/yarn.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Dockerfile" afterPath="$PROJECT_DIR$/client/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/proxy.conf.json" afterPath="$PROJECT_DIR$/client/proxy.conf.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.component.html" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.component.ts" afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/dashboards/addDashboard/add.dashboard.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/addDashboard/add.dashboard.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/dashboards/dashboards.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/dashboards.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/dashboards/view-dashboard/view-dashboard.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/dashboards/view-dashboard/view-dashboard.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/home/doc-viewer/doc-viewer.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/home/doc-viewer/doc-viewer.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/home/home.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/home/home.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.html" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.scss" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/settings/indices/add-indice/add-indice.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/add-indice/add-indice.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-list/indice-list.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-list/indice-list.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indices.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/indices/indices.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/add-vis-type/add-vis-type.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/add-vis-type/add-vis-type.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/edit-vis-type/edit-vis-type.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/edit-vis-type/edit-vis-type.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/vis-types.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/settings/vis-types/vis-types.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.html" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.ts" afterPath="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/services/auth.service.ts" afterPath="$PROJECT_DIR$/client/src/app/services/auth.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/actions/indices.action.ts" afterPath="$PROJECT_DIR$/client/src/app/store/actions/indices.action.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/actions/user.action.ts" afterPath="$PROJECT_DIR$/client/src/app/store/actions/user.action.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/actions/vis.action.ts" afterPath="$PROJECT_DIR$/client/src/app/store/actions/vis.action.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/effects/indices-effects.service.ts" afterPath="$PROJECT_DIR$/client/src/app/store/effects/indices-effects.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/effects/search-effects.service.ts" afterPath="$PROJECT_DIR$/client/src/app/store/effects/search-effects.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/effects/user-effects.service.ts" afterPath="$PROJECT_DIR$/client/src/app/store/effects/user-effects.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/effects/vis-types-effects.service.ts" afterPath="$PROJECT_DIR$/client/src/app/store/effects/vis-types-effects.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/effects/visualisations-effects.service.ts" afterPath="$PROJECT_DIR$/client/src/app/store/effects/visualisations-effects.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/reducers/application.reducer.ts" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/application.reducer.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/reducers/indices.reducer.ts" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/indices.reducer.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/reducers/user.reducer.ts" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/user.reducer.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/reducers/vis.reducer.ts" afterPath="$PROJECT_DIR$/client/src/app/store/reducers/vis.reducer.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/state/application.state.ts" afterPath="$PROJECT_DIR$/client/src/app/store/state/application.state.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/store/state/vis.state.ts" afterPath="$PROJECT_DIR$/client/src/app/store/state/vis.state.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.html" afterPath="$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.ts" afterPath="$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/util.ts" afterPath="$PROJECT_DIR$/client/src/app/util.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main.ts" afterPath="$PROJECT_DIR$/client/src/main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/yarn.lock" afterPath="$PROJECT_DIR$/client/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/auth/user.controller.spec.ts" afterPath="$PROJECT_DIR$/server/controllers/auth/user.controller.spec.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/auth/user.controller.ts" afterPath="$PROJECT_DIR$/server/controllers/auth/user.controller.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/package.json" afterPath="$PROJECT_DIR$/server/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routes/auth/register.route.ts" afterPath="$PROJECT_DIR$/server/routes/auth/register.route.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/tsconfig.json" afterPath="$PROJECT_DIR$/server/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/typings.json" afterPath="$PROJECT_DIR$/server/typings.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -305,255 +77,109 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5138445">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="add-indice.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/add-indice/add-indice.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="http.service.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/services/http.service.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-                  <folding>
-                    <element signature="n#!!block;n#getData#0;n#HttpService#0" expanded="false" />
-                    <element signature="n#!!block;n#updateIndices#0;n#HttpService#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="indice-list.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-list/indice-list.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="indices-effects.service.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/store/effects/indices-effects.service.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1500">
-                  <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="indices.action.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/store/actions/indices.action.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="63" column="1" lean-forward="false" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-                  <folding>
-                    <element signature="n#AddIndiceAction#0" expanded="false" />
-                    <element signature="n#AddIndiceSuccessAction#0" expanded="false" />
-                    <element signature="n#AddIndiceFailedAction#0" expanded="false" />
-                    <element signature="n#RemoveIndiceAction#0" expanded="false" />
-                    <element signature="n#RemoveIndiceSuccessAction#0" expanded="false" />
-                    <element signature="n#RemoveIndiceFailedAction#0" expanded="false" />
-                    <element signature="n#SelectIndiceAction#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="search.route.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/routes/elastic-search/search.route.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="vis-editor-sidebar.component.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="165" column="11" lean-forward="true" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
-                  <folding>
-                    <element signature="n#md-tab#0;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#fieldset#0;n#md-tab#0;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#button#0;n#div#0;n#fieldset#0;n#md-tab#0;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#fieldset#1;n#md-tab#0;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#md-tab#1;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="visualisation.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="visualisation.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#0#59#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/app.routing.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="68" column="49" lean-forward="true" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="data-table.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/data-table/data-table.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
-                  <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MaterialCharts/material-charts-db/users" pinned="false" current-in-tab="true">
-            <entry file="mongo://MaterialCharts/material-charts-db/users">
-              <provider selected="true" editor-type-id="MongoData">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="vis-editor-sidebar.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="vis.action.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/store/actions/vis.action.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#37#0" expanded="true" />
-                    <element signature="n#AddVisAction#0" expanded="false" />
-                    <element signature="n#AddVisSuccessAction#0" expanded="false" />
-                    <element signature="n#AddVisFailedAction#0" expanded="false" />
-                    <element signature="n#RemoveVisAction#0" expanded="false" />
-                    <element signature="n#RemoveVisSuccessAction#0" expanded="false" />
-                    <element signature="n#RemoveVisFailedAction#0" expanded="false" />
-                    <element signature="n#EditVisAction#0" expanded="false" />
-                    <element signature="n#EditVisSuccessAction#0" expanded="false" />
-                    <element signature="n#EditVisFailedAction#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="vis.reducer.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/store/reducers/vis.reducer.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="visualisations-effects.service.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/store/effects/visualisations-effects.service.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#1099#1528#0" expanded="false" />
-                    <element signature="e#1741#1988#0" expanded="false" />
-                    <element signature="e#2803#3187#0" expanded="false" />
-                    <element signature="e#3424#3604#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="visualisations.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="211">
-                  <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="visualisations.route.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/routes/collections/visualisations.route.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="visualize.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualize/visualize.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nodemon.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/node_modules/nodemon/bin/nodemon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.app.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/tsconfig.app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -591,29 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/material-charts-server/server.ts" />
-        <option value="$PROJECT_DIR$/material-charts-server/.env" />
-        <option value="$PROJECT_DIR$/material-charts-server/controllers/auth/user.controller.ts" />
-        <option value="$PROJECT_DIR$/material-charts-server/schemas/user.schema.ts" />
-        <option value="$PROJECT_DIR$/material-charts-server/controllers/collections/dashboards.controller.ts" />
-        <option value="$PROJECT_DIR$/material-charts-server/routes/index.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/reducers/user.reducer.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.html" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.scss" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/actions/indices.action.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/package.json" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/auth/auth.module.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/services/auth-guard.service.ts" />
-        <option value="$PROJECT_DIR$/material-charts-server/routes/elastic-search/info.route.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/settings/indices/add-indice/add-indice.component.ts" />
-        <option value="$PROJECT_DIR$/material-charts-server/routes/elastic-search/indices.route.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/services/auth.service.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/store/effects/user-effects.service.ts" />
-        <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/settings/indices/indice-preview/indice-preview.component.scss" />
         <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/settings/indices/indices.component.html" />
         <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/settings/indices/indice-preview/indice-preview.component.ts" />
         <option value="$PROJECT_DIR$/material-charts-client/src/app/pages/settings/indices/indices.component.ts" />
@@ -631,17 +234,40 @@
         <option value="$PROJECT_DIR$/material-charts-server/controllers/collections/indices.controller.ts" />
         <option value="$PROJECT_DIR$/material-charts-client/src/app/store/effects/visualisations-effects.service.ts" />
         <option value="$PROJECT_DIR$/material-charts-client/src/app/services/http.service.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualize/visualize.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/pages/visualisations/vis-types/data-table/data-table.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/store/effects/visualisations-effects.service.ts" />
         <option value="$PROJECT_DIR$/client/src/app/services/http.service.ts" />
         <option value="$PROJECT_DIR$/server/routes/collections/visualisations.route.ts" />
         <option value="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.html" />
+        <option value="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.scss" />
+        <option value="$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.html" />
+        <option value="$PROJECT_DIR$/client/src/app/store/actions/vis.action.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/store/reducers/vis.reducer.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/store/actions/indices.action.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/store/reducers/indices.reducer.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/store/effects/user-effects.service.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/store/actions/user.action.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.html" />
+        <option value="$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.html" />
+        <option value="$PROJECT_DIR$/server/.env" />
+        <option value="$PROJECT_DIR$/client/proxy.conf.json" />
+        <option value="$PROJECT_DIR$/client/src/app/services/auth.service.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/client/src/app/store/reducers/application.reducer.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/store/reducers/user.reducer.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/store/state/application.state.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.ts" />
+        <option value="$PROJECT_DIR$/client/Dockerfile" />
+        <option value="$PROJECT_DIR$/client/src/main.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/client/package.json" />
+        <option value="$PROJECT_DIR$/client/server.js" />
       </list>
     </option>
   </component>
@@ -660,10 +286,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -681,6 +305,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -703,60 +328,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -775,7 +346,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -793,145 +364,16 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visualisations" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visualisations" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visualisation" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visualisations" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visualisation" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vis-editor-sidebar" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="material-charts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="nodemon" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -950,8 +392,9 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="typescript-compiler-editor-notification" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/tsconfig.json&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/Dockerfile&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/hapi-status/.jshintrc&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/webpack.config.js" />
-    <property name="SearchEverywhereHistoryKey" value="vis-ed&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.ts&#10;vis&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/visualisation/visualisation.component.ts&#10;vis.red&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/reducers/vis.reducer.ts&#10;data&#9;null&#9;null&#10;visualize&#9;null&#9;null&#10;visua&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/visualisations.component.html&#10;http&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/services/http.service.ts&#10;visuali&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/visualisation/visualisation.component.ts&#10;app.&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/app.routing.ts&#10;creat&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.ts&#10;VIS.RED&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/reducers/vis.reducer.ts&#10;vis.ac&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/actions/vis.action.ts&#10;indice.actio&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/actions/indices.action.ts&#10;indice.stat&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/state/indices.state.ts&#10;user&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/reducers/user.reducer.ts&#10;indice.re&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/reducers/indices.reducer.ts&#10;side&#9;null&#9;null&#10;in*scs&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/pages/settings/indices/indice-preview/indice-preview.component.scss&#10;indi&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-server/routes/collections/indices.route.ts&#10;indie&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/effects/indices-effects.service.ts&#10;pa&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/package.json&#10;pack&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/hapi-status/package.json&#10;app.rout&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.routing.ts&#10;ap.mo&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.module.ts&#10;app.co&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.component.ts&#10;auth&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/services/auth-guard.service.ts&#10;user.&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/reducers/user.reducer.ts&#10;action&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/actions/user.action.ts&#10;log&#9;null&#9;null&#10;app.c&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.component.ts&#10;search&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-server/routes/elastic-search/search.route.ts&#10;app.mo&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.module.ts&#10;ac&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/package.json&#10;style&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/styles.scss&#10;effects&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/effects/visualisations-effects.service.ts&#10;sidebar&#9;null&#9;null&#10;visualisation&#9;null&#9;null&#10;vis.a&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/actions/vis.action.ts&#10;app.m&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.module.ts&#10;auth.ser&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/services/auth.service.ts&#10;user.re&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/reducers/user.reducer.ts&#10;visualiz&#9;null&#9;null&#10;vis-editor-sidebar.component&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.ts&#10;packa&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/package.json&#10;angul&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/angular-cli.json" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/tsconfig.json&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/Dockerfile&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/hapi-status/.jshintrc&#10;/Users/admin/PhpstormProjects/material-charts/client/node_modules/nodemon/bin/nodemon.js&#10;/Users/admin/PhpstormProjects/material-charts/material-charts-client/node_modules/@swimlane/ngx-datatable/webpack.config.js" />
+    <property name="SearchEverywhereHistoryKey" value="pack&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/package.json&#10;appli&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/state/application.state.ts&#10;visu&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/visualisation/visualisation.component.ts&#10;pro&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/proxy.conf.json&#10;user.&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/effects/user-effects.service.ts&#10;login&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/home/login/login-dialog/login-dialog.component.ts&#10;tim&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/time-picker/time-picker.component.html&#10;app.co&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/app.component.ts&#10;visua&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/visualisations.component.ts&#10;visualis&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/visualisations.component.html&#10;app.m&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/app.module.ts&#10;app.c&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/app.component.html&#10;remove&#9;null&#9;null&#10;use&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/reducers/user.reducer.ts&#10;util&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/util.ts&#10;utils&#9;null&#9;null&#10;app.&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/app.component.html&#10;eff&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/effects/user-effects.service.ts&#10;indices&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/reducers/indices.reducer.ts&#10;indices.ac&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/actions/indices.action.ts&#10;vis.re&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/reducers/vis.reducer.ts&#10;vis&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/effects/visualisations-effects.service.ts&#10;user&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/effects/user-effects.service.ts&#10;applica&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/reducers/application.reducer.ts&#10;user.a&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/actions/user.action.ts&#10;user.st&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/state/user.state.ts&#10;app.com&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/app.component.html&#10;vis-ed&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.ts&#10;vis.red&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/store/reducers/vis.reducer.ts&#10;data&#9;null&#9;null&#10;visualize&#9;null&#9;null&#10;http&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/services/http.service.ts&#10;visuali&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/visualisation/visualisation.component.ts&#10;creat&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.ts&#10;VIS.RED&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/reducers/vis.reducer.ts&#10;vis.ac&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/actions/vis.action.ts&#10;indice.actio&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/actions/indices.action.ts&#10;indice.stat&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/state/indices.state.ts&#10;indice.re&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/reducers/indices.reducer.ts&#10;side&#9;null&#9;null&#10;in*scs&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/pages/settings/indices/indice-preview/indice-preview.component.scss&#10;indi&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-server/routes/collections/indices.route.ts&#10;indie&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/effects/indices-effects.service.ts&#10;pa&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/package.json&#10;app.rout&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.routing.ts&#10;ap.mo&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/app.module.ts&#10;auth&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/services/auth-guard.service.ts&#10;action&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-client/src/app/store/actions/user.action.ts&#10;log&#9;null&#9;null&#10;search&#9;FILE&#9;file:///Users/admin/PhpstormProjects/material-charts/material-charts-server/routes/elastic-search/search.route.ts" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -980,16 +423,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="debug" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/material-charts-server/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="debug" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="start (2)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -1005,6 +438,16 @@
       <command value="run" />
       <scripts>
         <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -1086,17 +529,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="npm.start" />
       <item index="1" class="java.lang.String" itemvalue="npm.start (1)" />
-      <item index="2" class="java.lang.String" itemvalue="npm.debug" />
-      <item index="3" class="java.lang.String" itemvalue="npm.start (2)" />
-      <item index="4" class="java.lang.String" itemvalue="npm.start (3)" />
+      <item index="2" class="java.lang.String" itemvalue="npm.start (2)" />
+      <item index="3" class="java.lang.String" itemvalue="npm.start (3)" />
+      <item index="4" class="java.lang.String" itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="npm.start (3)" />
-        <item index="1" class="java.lang.String" itemvalue="npm.start (2)" />
-        <item index="2" class="java.lang.String" itemvalue="npm.start (1)" />
-        <item index="3" class="java.lang.String" itemvalue="npm.start" />
-        <item index="4" class="java.lang.String" itemvalue="npm.debug" />
+        <item index="0" class="java.lang.String" itemvalue="npm.start (2)" />
+        <item index="1" class="java.lang.String" itemvalue="npm.build" />
+        <item index="2" class="java.lang.String" itemvalue="npm.start (3)" />
+        <item index="3" class="java.lang.String" itemvalue="npm.start (1)" />
+        <item index="4" class="java.lang.String" itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -1117,7 +560,14 @@
       <workItem from="1492513633938" duration="2211000" />
       <workItem from="1492770298050" duration="6683000" />
       <workItem from="1493199641865" duration="58633000" />
-      <workItem from="1493714845909" duration="9059000" />
+      <workItem from="1493714845909" duration="14419000" />
+      <workItem from="1493800149369" duration="2531000" />
+      <workItem from="1493809967576" duration="10947000" />
+      <workItem from="1493899850525" duration="1081000" />
+      <workItem from="1493973730368" duration="8153000" />
+      <workItem from="1493988450374" duration="653000" />
+      <workItem from="1494090843505" duration="13000" />
+      <workItem from="1494091551160" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="separate the server and the frontend">
       <created>1492771398061</created>
@@ -1140,37 +590,44 @@
       <option name="project" value="LOCAL" />
       <updated>1493395558693</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="side effects for visualisations">
+      <created>1493736618976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1493736618976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81169000" />
+    <option name="totallyTimeSpent" value="109950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.009693054" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5149095" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3397231" sideWeight="0.522293" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3312034" sideWeight="0.48509052" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12886049" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25878593" sideWeight="0.4802982" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3397231" sideWeight="0.477707" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.009693054" sideWeight="1.0" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12886049" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4802982" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34811166" sideWeight="0.48509052" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1184,7 +641,8 @@
     <MESSAGE value="separate the server and the frontend" />
     <MESSAGE value="add status codes" />
     <MESSAGE value="adding indices effects services" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding indices effects services" />
+    <MESSAGE value="side effects for visualisations" />
+    <option name="LAST_COMMIT_MESSAGE" value="side effects for visualisations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1192,348 +650,23 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/client/src/app/services/http.service.ts</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/app/store/effects/user-effects.service.ts</url>
+          <line>32</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/elastic-search/info.route.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/elastic-search/index-count.route.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/connections/elastic-search.connection.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/auth/auth.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/add-indice/add-indice.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/store/effects/user-effects.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="52" column="15" lean-forward="true" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-preview/indice-preview.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/elastic-search/query-es.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/elastic-search/indices.route.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/services/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/services/auth-guard.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/indices.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="17" column="65" lean-forward="true" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-preview/indice-preview.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/indices.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/store/reducers/indices.reducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-preview/indice-preview.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <element signature="n#div#0;n#md-tab#0;n#md-tab-group#0;n#ng-container#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/store/reducers/user.reducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/store/state/indices.state.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/store/actions/indices.action.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="63" column="1" lean-forward="false" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-          <folding>
-            <element signature="n#AddIndiceAction#0" expanded="false" />
-            <element signature="n#AddIndiceSuccessAction#0" expanded="false" />
-            <element signature="n#AddIndiceFailedAction#0" expanded="false" />
-            <element signature="n#RemoveIndiceAction#0" expanded="false" />
-            <element signature="n#RemoveIndiceSuccessAction#0" expanded="false" />
-            <element signature="n#RemoveIndiceFailedAction#0" expanded="false" />
-            <element signature="n#SelectIndiceAction#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/collections/dashboards.route.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#73#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/collections/visualisations.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="e#405#650#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/store/effects/indices-effects.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/add-indice/add-indice.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/util.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/collections/indices.route.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/collections/indices.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#IIndiceSettingsIndex#0" expanded="false" />
-            <element signature="n#!!block;n#IIndiceSettings#0" expanded="false" />
-            <element signature="n#!!block;n#IIndice#0" expanded="false" />
-            <element signature="e#455#693#0" expanded="false" />
-            <element signature="e#502#689#0" expanded="false" />
-            <element signature="e#747#1098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-list/indice-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/node_modules/@angular/core/src/di/provider.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="203" column="20" lean-forward="false" selection-start-line="203" selection-start-column="20" selection-end-line="203" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/node_modules/angular2-jwt/angular2-jwt.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="141" column="28" lean-forward="true" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
-          <folding>
-            <element signature="e#4907#5948#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/create-visualisation/create-visualisation.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="68" column="49" lean-forward="true" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualize/visualize.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1541,39 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/store/actions/vis.action.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="n#AddVisAction#0" expanded="false" />
-            <element signature="n#AddVisSuccessAction#0" expanded="false" />
-            <element signature="n#AddVisFailedAction#0" expanded="false" />
-            <element signature="n#RemoveVisAction#0" expanded="false" />
-            <element signature="n#RemoveVisSuccessAction#0" expanded="false" />
-            <element signature="n#RemoveVisFailedAction#0" expanded="false" />
-            <element signature="n#EditVisAction#0" expanded="false" />
-            <element signature="n#EditVisSuccessAction#0" expanded="false" />
-            <element signature="n#EditVisFailedAction#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/store/effects/visualisations-effects.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#1099#1528#0" expanded="false" />
-            <element signature="e#1741#1988#0" expanded="false" />
-            <element signature="e#2803#3187#0" expanded="false" />
-            <element signature="e#3424#3604#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1588,67 +688,356 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/store/reducers/vis.reducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/pages/settings/indices/indice-list/indice-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/actions/indices.action.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/routes/elastic-search/search.route.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/collections/visualisations.route.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+          <caret line="4" column="67" lean-forward="false" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/vis-editor-sidebar/vis-editor-sidebar.component.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/actions/vis.action.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/reducers/indices.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/reducers/vis.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/effects/visualisations-effects.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/collections/visualisations.route.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/state/dashboards.state.ts">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="165" column="11" lean-forward="true" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/node_modules/elasticsearch/src/lib/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/angular2-material-datepicker/node_modules/rxjs/BehaviorSubject.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/util.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="115" column="20" lean-forward="false" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/@ngrx/store/src/dispatcher.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/actions/user.action.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/@covalent/core/notifications/notifications.module.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/proxy.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/time-picker/time-picker.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/services/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/pages/home/login/login-dialog/login-dialog.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/state/application.state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisation/visualisation.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/reducers/application.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="104" lean-forward="false" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/effects/user-effects.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding>
-            <element signature="n#md-tab#0;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#fieldset#0;n#md-tab#0;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#button#0;n#div#0;n#fieldset#0;n#md-tab#0;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#fieldset#1;n#md-tab#0;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#md-tab#1;n#md-tab-group#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="e#2031#2963#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/reducers/user.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/store/state/user.state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/pages/visualisations/visualisations.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/ng2-nvd3/node_modules/@angular/core/src/di/metadata.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4284">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/ng2-nvd3/node_modules/@angular/core/src/di/opaque_token.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/nodemon/bin/nodemon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/tsconfig.app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

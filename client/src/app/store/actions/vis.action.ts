@@ -6,6 +6,7 @@ export const ActionTypes = {
     ADD_VISUALISATION: type('[Visualisation] ADD VISUALISATION'),
     ADD_VISUALISATION_SUCCESS: type('[Visualisation] ADD SUCCES VISUALISATION'),
     ADD_VISUALISATION_FAILED: type('[Visualisation] ADD FAILED VISUALISATION'),
+    RESET_VISUALISATIONS: type('[VisualisationS] RESET VISUALISATIONS'),
     REMOVE_VISUALISATION: type('[Visualisation] REMOVE VISUALISATION'),
     REMOVE_VISUALISATION_SUCCESS: type('[Visualisation] REMOVE SUCCESS VISUALISATION'),
     REMOVE_VISUALISATION_FAILED: type('[Visualisation] REMOVE FAILED VISUALISATION'),
@@ -86,5 +87,13 @@ export class EditVisFailedAction implements Action {
 
     }
 }
+export class ResetVisualisationsAction implements Action {
 
-export type Actions = AddVisAction | RemoveVisAction | EditVisAction | AddVisSuccessAction | AddVisFailedAction | EditVisSuccessAction | EditVisFailedAction | RemoveVisSuccessAction | RemoveVisSuccessAction;
+    type = ActionTypes.RESET_VISUALISATIONS;
+
+    constructor(public payload){
+
+    }
+}
+
+export type Actions = AddVisAction | RemoveVisAction | EditVisAction | AddVisSuccessAction | AddVisFailedAction | EditVisSuccessAction | EditVisFailedAction | RemoveVisSuccessAction | RemoveVisSuccessAction | ResetVisualisationsAction;

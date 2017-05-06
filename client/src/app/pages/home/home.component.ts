@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {HttpService} from "../../services/http.service";
 import {IIndices} from "../../store/state/indices.state";
 import {Store} from "@ngrx/store";
-import {IApplicationState} from "../../store/state/application.state";
+import {IApplication} from "../../store/state/application.state";
 
 @Component({
   selector: 'app-home',
@@ -12,7 +12,7 @@ import {IApplicationState} from "../../store/state/application.state";
 export class HomeComponent implements OnInit {
 
   indices$
-  constructor(private httpService: HttpService, private store: Store<IApplicationState>) {
+  constructor(private httpService: HttpService, private store: Store<IApplication>) {
 
     store.select('indices')
         .subscribe((indices: IIndices) => {

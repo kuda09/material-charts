@@ -9,7 +9,7 @@ import * as fromVis from "./vis.reducer";
 import * as fromVisTypes from "./visTypes.reducer";
 import * as fromIndices from "./indices.reducer";
 import * as fromSearches from "./search.reducer";
-import {IApplicationState} from "../state/application.state";
+import {IApplication} from "../state/application.state";
 
 const reducers = {
     user: fromUser.userReducer,
@@ -20,7 +20,7 @@ const reducers = {
     search: fromSearches.searchStateReducer
 };
 
-const developmentReducer: ActionReducer<IApplicationState> = compose(storeFreeze, combineReducers)(reducers);
+const developmentReducer: ActionReducer<IApplication> = compose(storeFreeze, combineReducers)(reducers);
 
 export function reducer(state: any, action: any) {
 
@@ -28,14 +28,13 @@ export function reducer(state: any, action: any) {
 }
 
 
-export const getUserState = (state: IApplicationState) => state.user;
-export const getIndicesState = (state: IApplicationState) => state.indices;
-export const getVisState = (state: IApplicationState) => state.visualisations;
-export const getDashboardsState = (state: IApplicationState) => state.dashboards;
+export const getUserState = (state: IApplication) => state.user;
+export const getIndicesState = (state: IApplication) => state.indices;
+export const getVisState = (state: IApplication) => state.visualisations;
+export const getDashboardsState = (state: IApplication) => state.dashboards;
 
 
-
-export const getUser = createSelector(getUserState, fromUser._getUser);
-export const getIndices = createSelector(getIndicesState, fromIndices._getIndices);
-export const getVisualisations = createSelector(getVisState, fromVis._getVis);
-export const getDashboards = createSelector(getDashboardsState, fromDashboards._getDashboards);
+export const userSelector = createSelector(getUserState, fromUser.user);
+export const indicesSelector = createSelector(getIndicesState, fromIndices.indices);
+export const visualisationsSelector = createSelector(getVisState, fromVis._getVis);
+export const dashboardsSelector = createSelector(getDashboardsState, fromDashboards._getDashboards);

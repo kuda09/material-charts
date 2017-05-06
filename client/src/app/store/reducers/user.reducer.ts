@@ -55,4 +55,4 @@ export function userReducer(state = INITIAL_USER_STATE, action: Actions) : IUser
 }
 
 
-export const _getUser= (state: IUser) => state;
+export const user= (user: IUser) => user;

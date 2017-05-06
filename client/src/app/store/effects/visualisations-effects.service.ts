@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {MdSnackBar} from "@angular/material";
-import {IApplicationState} from "../state/application.state";
+import {IApplication} from "../state/application.state";
 import {Store, Action} from "@ngrx/store";
 import {Router} from "@angular/router";
 import {HttpService} from "../../services/http.service";
@@ -15,7 +15,7 @@ export class VisualisationsEffectsService {
     constructor(private actions$: Actions,
                 private httpService: HttpService,
                 private router: Router,
-                private store: Store<IApplicationState>,
+                private store: Store<IApplication>,
                 private snackbar: MdSnackBar) {
     }
 

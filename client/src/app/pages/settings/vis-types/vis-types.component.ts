@@ -2,7 +2,7 @@ import {Component, OnInit, OnDestroy} from '@angular/core';
 import {MdDialog} from "@angular/material";
 import {AddVisTypeComponent} from "./add-vis-type/add-vis-type.component";
 import {IVisTypes} from "../../../store/state/visTypes.state";
-import {IApplicationState} from "../../../store/state/application.state";
+import {IApplication} from "../../../store/state/application.state";
 import {Store} from "@ngrx/store";
 import {UnistallVisAction} from "../../../store/actions/visTypes.action";
 import {Observable} from "rxjs";
@@ -18,7 +18,7 @@ export class VisTypesComponent implements OnInit, OnDestroy {
     visTypes: IVisTypes;
     visTypes$;
 
-    constructor(private dialog: MdDialog, private store: Store<IApplicationState>) {
+    constructor(private dialog: MdDialog, private store: Store<IApplication>) {
 
 
     }

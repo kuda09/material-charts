@@ -1,15 +1,14 @@
 import {IUser} from "./user.state";
 import {IVisTypes} from "./visTypes.state";
 import {IDashboards} from "./dashboards.state";
-import {IVisualisationsState} from "./vis.state";
+import {IVisualisations} from "./vis.state";
 import {IIndices} from "./indices.state";
 import {ISearches} from "./search.state";
 
-export interface IApplicationState {
+export interface IApplication {
     user: IUser;
     visTypes: IVisTypes;
     dashboards: IDashboards;
-    visualisations: IVisualisationsState;
+    visualisations: IVisualisations;
     indices: IIndices;
-    results?: ISearches;
 }

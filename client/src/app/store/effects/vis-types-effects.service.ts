@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {Actions, toPayload, Effect} from "@ngrx/effects";
 import {HttpService} from "../../services/http.service";
 import {Store} from "@ngrx/store";
-import {IApplicationState} from "../state/application.state";
+import {IApplication} from "../state/application.state";
 import {MdSnackBar} from "@angular/material";
 import {Observable} from "rxjs";
 import {ActionTypes} from "../actions/visTypes.action";
@@ -15,7 +15,7 @@ export class VisTypesEffectsService {
       private actions$: Actions,
       private httpService: HttpService,
       private router: Router,
-      private store: Store<IApplicationState>,
+      private store: Store<IApplication>,
       private snackbar: MdSnackBar
   ) {
   }

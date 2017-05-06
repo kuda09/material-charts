@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {FormGroup, FormBuilder, Validators} from "@angular/forms";
 import {Store} from "@ngrx/store";
-import {IApplicationState} from "../store/state/application.state";
+import {IApplication} from "../store/state/application.state";
 import {getPreviousDayDate, getCurrentDate} from "../util";
 
 
@@ -18,7 +18,7 @@ export class TimePickerComponent implements OnInit {
     public TimeRangeForm: FormGroup;
 
     constructor(private  _fb: FormBuilder,
-                private store: Store<IApplicationState>) {
+                private store: Store<IApplication>) {
     }
 
     ngOnInit() {

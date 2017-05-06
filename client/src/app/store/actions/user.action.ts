@@ -37,7 +37,7 @@ export class LoginFailedAction implements Action {
 export class RemoveUserAction implements Action {
 
     type = ActionTypes.LOGOUT_SUCCESS;
-    constructor(public payload: IUser){}
+    constructor(public payload?){}
 
 }
 

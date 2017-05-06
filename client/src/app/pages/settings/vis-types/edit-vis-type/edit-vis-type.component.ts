@@ -1,5 +1,5 @@
 import {Component, OnInit, OnDestroy, ViewChild, AfterViewInit} from '@angular/core';
-import {IApplicationState} from "../../../../store/state/application.state";
+import {IApplication} from "../../../../store/state/application.state";
 import {Store} from "@ngrx/store";
 import {ActivatedRoute} from "@angular/router";
 import {IVisTypes, IVisType} from "../../../../store/state/visTypes.state";
@@ -25,7 +25,7 @@ export class EditVisTypeComponent implements OnInit, OnDestroy {
     _visType: IVisType;
     /*@ViewChild('editor') editor;*/
 
-    constructor(private store: Store<IApplicationState>,
+    constructor(private store: Store<IApplication>,
                 private _fb: FormBuilder,
                 private route: ActivatedRoute) {
 

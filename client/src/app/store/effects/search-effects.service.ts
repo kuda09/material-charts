@@ -5,7 +5,7 @@ import {of} from 'rxjs/observable/of';
 import {Store} from "@ngrx/store";
 import {ActionTypes, SearchResultsReceivedAction} from "../actions/search.action";
 import {HttpService} from "../../services/http.service";
-import {IApplicationState} from "../state/application.state";
+import {IApplication} from "../state/application.state";
 
 import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/map';
@@ -21,7 +21,7 @@ export class SearchEffectsService {
     constructor(
         private actions$: Actions,
         private httpService: HttpService,
-        private store: Store<IApplicationState>,
+        private store: Store<IApplication>,
         private snackbar: MdSnackBar
     ) {
     }

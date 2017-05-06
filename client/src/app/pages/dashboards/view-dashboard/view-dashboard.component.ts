@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Store} from "@ngrx/store";
-import {IApplicationState} from "../../../store/state/application.state";
+import {IApplication} from "../../../store/state/application.state";
 import {ActivatedRoute} from "@angular/router";
 import {IDashboards, IDashboard} from "../../../store/state/dashboards.state";
 import * as _ from 'lodash';
@@ -16,7 +16,7 @@ export class ViewDashboardComponent implements OnInit {
     dashboards: IDashboards;
     dashboard: IDashboard;
 
-    constructor(private store: Store<IApplicationState>,
+    constructor(private store: Store<IApplication>,
                 private route: ActivatedRoute) {
         route.params
             .subscribe(params => this.id = params['id']);

@@ -25,7 +25,7 @@
             <button md-icon-button (click)="sidenav.open()">
                 <md-icon>menu</md-icon>
             </button>
-            <h4 [routerLink]="['']">{{(user$ | async)?.name}}</h4>
+            <h4 [routerLink]="['']">Welcome {{(user$ | async)?.name}}</h4>
 
             <form class="filter-form" (ngSubmit)="filter(FilterForm.value, FilterForm.valid)" name="FilterForm" [formGroup]="FilterForm" novalidate method="post">
                 <div class="form-wrapper">
@@ -47,10 +47,24 @@
                 <button md-icon-button mdTooltip="Time picker" (click)="openTimePicker()">
                     <md-icon>timer</md-icon>
                 </button>
+
+                <button md-icon-button [mdMenuTriggerFor]="toolbarMenu1"><md-icon>more_vert</md-icon></button>
+                <md-menu #toolbarMenu1="mdMenu">
+                    <a md-menu-item [routerLink]="['/settings']">
+                        <md-icon>settings</md-icon>
+                        <span>Settings</span>
+                    </a>
+                    <button md-menu-item (click)="signOut()">
+                        <md-icon>exit_to_app</md-icon>
+                        <span>Sign out</span>
+                    </button>
+                </md-menu>
             </div>
 
         </md-toolbar>
         <div class="main">
+
+
             <router-outlet></router-outlet>
         </div>
     </div>
